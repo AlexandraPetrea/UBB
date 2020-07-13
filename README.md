@@ -1,5 +1,4 @@
 # UBBye
-# UBBye
 The short version of university.
 
 ## 💻 Volum 1
@@ -8,7 +7,7 @@ The short version of university.
 📌 Algebra
 📌 Computational Logic
 📌 Computer System Architecture
-📌 Fundamentals of Programming
+📌 [Fundamentals of Programming] (https://github.com/AlexandraPetrea/UBB/tree/master/sem1/fp)
 📌 Analysis
 ```
 
@@ -53,7 +52,7 @@ The short version of university.
 📌 Parallel and Distributed Programming
 ```
 
-## 💻 Volum 6
+## Volum 6
 
 ```bash
 📌 System administration
