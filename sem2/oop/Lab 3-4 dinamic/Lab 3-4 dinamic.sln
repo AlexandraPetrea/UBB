@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab 3-4 dinamic", "Lab 3-4 dinamic\Lab 3-4 dinamic.vcxproj", "{0284B666-6F32-46DA-9749-8C2006006CC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0284B666-6F32-46DA-9749-8C2006006CC4}.Debug|x64.ActiveCfg = Debug|x64
+		{0284B666-6F32-46DA-9749-8C2006006CC4}.Debug|x64.Build.0 = Debug|x64
+		{0284B666-6F32-46DA-9749-8C2006006CC4}.Debug|x86.ActiveCfg = Debug|Win32
+		{0284B666-6F32-46DA-9749-8C2006006CC4}.Debug|x86.Build.0 = Debug|Win32
+		{0284B666-6F32-46DA-9749-8C2006006CC4}.Release|x64.ActiveCfg = Release|x64
+		{0284B666-6F32-46DA-9749-8C2006006CC4}.Release|x64.Build.0 = Release|x64
+		{0284B666-6F32-46DA-9749-8C2006006CC4}.Release|x86.ActiveCfg = Release|Win32
+		{0284B666-6F32-46DA-9749-8C2006006CC4}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {372F79BF-21B9-4A43-AB21-93C9D1CD575F}
+	EndGlobalSection
+EndGlobal

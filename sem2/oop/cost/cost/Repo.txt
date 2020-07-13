@@ -1,0 +1,5 @@
+Solve_oop | 120 | 1
+respond | 45 | 2
+eat_sushi| 30 | 3
+visit_parent|240|1
+buy_a_jacket|120|2

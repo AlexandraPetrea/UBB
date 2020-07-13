@@ -1,0 +1,21 @@
+Subiect 6 -SDA
+1. Sa implementezi toate operatiile unei stive folosind priority queue. Sa descrii cum folosesti 
+prioritatile si sa scrii reprezentarea pentru toate functiile si pentru stiva. 
+2. a) Ti se dadea un binary search tree si trebuia sa scrii toate permutarile care se pot folosi pentru a avea
+tree-ul din imagine.
+b) Ti se dadea un hash table cu quadric probing unde c1=c2=0.5 si trebuia sa arati cum arata tabela de hash
+dupa ce inserau mai multe elemente. Sa scrii loading factor pentru tabela
+c) Se dadea un MAX-HEAP si trebuia sa aduagi niste noduri pe care ti le dadea ea, sa faci 3 desene pentru
+cateva pe care le specifica si la sfarsit sa elimini un nod
+3. a) Ti se dadea o expresie in infix notation si trebuia sa scrii care e numarul maxim de semne care se
+afla pe stiva la un moment dat
+b) Daca ai o queue care are un capat denumit head si un capat denumit tail, unde se adauga un element cand
+queue este goala?
+c) Complexitatea O(n*log2n + n2) * sau ceva putin mai complicat* carei clase de complexitati apartine?
+d) In care cazuri loading factor pentru hashTable poate sa fie mai mare decat 1? 
+e) 
+f)
+4. Ti se dadea un linked hash table si stiai ca in momentul in care dai search pentru un element, elementul se
+muta pe prima pozitie din iteration order. Trebuia sa implementezi functia si sa scrii complexitatea si 
+reprezentarea pentru ea.
+5. Ti se dadea parcurgerea in post order si trebuia sa reconstruiesti un avl tree din ea + complexitatea

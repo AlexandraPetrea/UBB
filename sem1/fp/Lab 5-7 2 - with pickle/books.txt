@@ -1,0 +1,11 @@
+2,Ana,are,author
+3,Morometii,2 volume,author2
+5,Harry Potter,description4,author4
+4,Moara cu noroc,description3,Ion Slavici
+6,Adam si Eva,description5,Liviu Rebreanu
+7,Fluturi,description6,author6
+8,Inger si demon,description7,Dan Brown
+9,Codul lui DaVinci,description8,Dan Brown
+10,Simbolul pierdut,description9,author9
+11,Mmmm,description10,author10
+1,Ana,a,a

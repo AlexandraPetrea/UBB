@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UI" Collapsed="true">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAABAgAAkAAAwAAAAAAggAACAAgCAAAAIQAAAAAAkCA=</HashCode>
+      <FileName>UI.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ctrl" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Controller" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACABAAAAAQAAAAABERkAAAAAEQACAAAgAAACAIAAAgA=</HashCode>
+      <FileName>Controller.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="repo" />
+      <Field Name="validator" />
+      <Field Name="watchList" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Repository" Collapsed="true">
+    <Position X="6.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAICAAAAAAAAgQAAAAQgAAAAAAAAAECQAAACAAA=</HashCode>
+      <FileName>Repository.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="films" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FilmValidator" Collapsed="true">
+    <Position X="4.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>filmValidator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileWatchList" Collapsed="true">
+    <Position X="1" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAABAIAAAAAAAAAAAAAAAAAAAAACAAAAAhAAAAAA=</HashCode>
+      <FileName>FileWatchList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="std::vector&lt;_Ty, _Alloc&gt;" Collapsed="true">
+    <Position X="9" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUIAEIEqCrBsEABAAOMIAAAyAAUEQBIAhQkwggAFUkI=</HashCode>
+      <FileName>c:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128\include\vector</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

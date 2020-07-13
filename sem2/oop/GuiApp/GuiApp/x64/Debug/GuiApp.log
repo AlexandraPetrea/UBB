@@ -1,0 +1,15 @@
+﻿  CSVWatchList.cpp
+  Controller.cpp
+  FileWatchList.cpp
+  Film.cpp
+  moc_GuiApp.cpp
+  GuiApp.cpp
+  HTMLWatchlist.cpp
+  Repository.cpp
+  RepositoryException.cpp
+  UI.cpp
+  WatchList.cpp
+  filmValidator.cpp
+  main.cpp
+  test.cpp
+  GuiApp.vcxproj -> D:\source\repos\GuiApp\x64\Debug\GuiApp.exe

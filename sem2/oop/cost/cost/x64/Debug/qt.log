@@ -1,0 +1,3 @@
+cost.qrc|"C:\Users\User\source\repos\cost\cost\cost.qrc" -o ".\GeneratedFiles\qrc_cost.cpp" --name cost
+cost.ui|"C:\Users\User\source\repos\cost\cost\cost.ui" -o ".\GeneratedFiles\ui_cost.h"
+cost.h|"C:\Users\User\source\repos\cost\cost\cost.h" -o ".\GeneratedFiles\Debug\moc_cost.cpp" "-I.\GeneratedFiles" "-I." "-IC:\Qt\5.10.1\msvc2017_64\include" "-I.\GeneratedFiles\Debug" "-IC:\Qt\5.10.1\msvc2017_64\include\QtCore" "-IC:\Qt\5.10.1\msvc2017_64\include\QtGui" "-IC:\Qt\5.10.1\msvc2017_64\include\QtANGLE" "-IC:\Qt\5.10.1\msvc2017_64\include\QtWidgets" -DUNICODE -D_UNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB

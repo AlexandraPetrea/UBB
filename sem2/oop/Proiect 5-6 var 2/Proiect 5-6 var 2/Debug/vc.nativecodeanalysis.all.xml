@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>d:\source\repos\proiect 5-6 var 2\proiect 5-6 var 2\</FILEPATH>
+      <FILENAME>ui.cpp</FILENAME>
+      <LINE>42</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 's' hides declaration of the same name in outer scope. For additional information, see previous declaration at line '35' of 'd:\source\repos\proiect 5-6 var 2\proiect 5-6 var 2\ui.cpp'.</DESCRIPTION>
+    <FUNCTION>getInt</FUNCTION>
+    <DECORATED>?getInt@@YAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>35</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\source\repos\proiect 5-6 var 2\proiect 5-6 var 2\</FILEPATH>
+        <FILENAME>ui.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT></DEFECTS>

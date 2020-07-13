@@ -1,0 +1,10 @@
+1,non,ill,0
+2,non,healty,0
+3,vac,healty,0
+4,non,ill, 0
+5,non,healty,0
+6,vac,healty, 0
+7,non,healty,0
+8,non,healty,0
+9,non,ill,1
+10,non,healty,0

@@ -1,0 +1,21 @@
+Am vorbit cu Lupsa, si in principal intra urmatorii algoritmi:
+- parcurgeri ( dfs + bfs)
+- bfs -> drum de lungime minima ???
+- Dijkstra , A*, Bellman-Ford, Floyd-Warshall, cost minim cu programare dinamica, matrix multiplication
+- Componente conexe ( unoriented)
+- Componente tare conexe ( Tarjan, Kosaraju)
+- DAG -> Tarjan, Predeccesor count, sortare topologica
+- Planificare activitati, activitati critice
+- Kruskal, Prim
+- Problemele NP complete de la ultimul lab ( colorari, vertex cover, clique etc.)
+- Flux maxim, Flux maxim de cost minim
+- Cuplaj maxim, Cuplaj maxim de cost minim
+---------------------------------
+Structura e de 3 exercitii, ca in model.
+In principal, nu trebuie scris cod pentru algoritmii de la curs, dar trebuie urmarit pe un graf, ca in exemplu de la el de pe site.
+O sa fie o problema la care trebuie adaptare la rezolvare, acolo trebuie cod.
+Atentie la algoritmii de cost min, si cei de MST, ca au cele mai mari sanse.
+
+
+
+http://kiralycraft.go.ro/assets/

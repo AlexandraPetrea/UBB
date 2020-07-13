@@ -1,0 +1,22 @@
+﻿  CLearning.cpp
+d:\source\repos\proiect 11-12\proiect 5-6 var 2\clearning.h(3): fatal error C1083: Cannot open include file: 'QtWidgets/QMainWindow': No such file or directory
+  Controller.cpp
+  CSVWatchList.cpp
+  DynamicVector.cpp
+  FileWatchList.cpp
+  Film.cpp
+  filmValidator.cpp
+d:\source\repos\proiect 11-12\proiect 5-6 var 2\filmvalidator.cpp(34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\source\repos\proiect 11-12\proiect 5-6 var 2\filmvalidator.cpp(35): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  gui.cpp
+d:\source\repos\proiect 11-12\proiect 5-6 var 2\gui.cpp(7): fatal error C1083: Cannot open include file: 'QtWidgets/qmainwindow.h': No such file or directory
+  HTMLWatchlist.cpp
+  main.cpp
+d:\source\repos\proiect 11-12\proiect 5-6 var 2\clearning.h(3): fatal error C1083: Cannot open include file: 'QtWidgets/QMainWindow': No such file or directory
+  Repository.cpp
+  RepositoryException.cpp
+  test.cpp
+  UI.cpp
+  WatchList.cpp
+d:\source\repos\proiect 11-12\proiect 5-6 var 2\watchlist.cpp(69): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...

@@ -1,0 +1,14 @@
+calculator online:
+https://www.symbolab.com/solver/equation-calculator/%5Cleft(0.25%5Cright)%5E%7B3%7D-5%5Ccdot%5Cleft(0.25%5Cright)%2B1
+
+Bisection method exercise -> https://faculty.tru.ca/rtaylor/math3650/math3650_quiz1.pdf
+
+Simpson rule -> https://faculty.tru.ca/rtaylor/math3650/math3650_quiz4.pdf
+
+quadrature -> https://www.math.ucla.edu/~yanovsky/Teaching/Math151A/hw6/Hw6_solutions.pdf
+
+Lagrange -> https://www.math.ucla.edu/~yanovsky/Teaching/Math151A/hw4/Hw4_solutions.pdf
+
+diferiti algoritmi aici -> http://fourier.eng.hmc.edu/e176/lectures/ch7/node5.html
+
+execitii -> https://www.math.ucla.edu/~yanovsky/Teaching/Math151A/

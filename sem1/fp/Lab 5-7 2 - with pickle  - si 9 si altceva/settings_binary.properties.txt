@@ -1,0 +1,4 @@
+repository=binary
+clients=clients.pickle
+books=books.pickle
+rentals=rentals.pickle

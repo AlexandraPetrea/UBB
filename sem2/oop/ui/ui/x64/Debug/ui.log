@@ -1,0 +1,19 @@
+﻿  moc_admin.cpp
+  moc_chart.cpp
+  moc_qcustomplot.cpp
+  moc_ui.cpp
+  moc_user.cpp
+  admin.cpp
+  chart.cpp
+  controller.cpp
+  film.cpp
+  filmValidator.cpp
+  main.cpp
+  qcustomplot.cpp
+  repository.cpp
+  repositoryexception.cpp
+  ui.cpp
+  user.cpp
+  util.cpp
+  watchlist.cpp
+  ui.vcxproj -> D:\source\repos\ui\x64\Debug\ui.exe
