@@ -1,0 +1,12 @@
+; b) Write a function to check whether an atom E is a member of a list which is not necessarily linear.
+
+(defun check_atom (l e)
+    (cond 
+        ((null l) nil)
+        ((and (atom (car l)) (equal (car l) e)) t)
+        ((atom (car l)) (check_atom (cdr l) e))
+        ((list (car l)) (or (check_atom (car l) e) (check_atom (cdr l) e)))
+    )
+)
+(print (check_atom '(1 2 (3 (a 5) (6 7)) 8 (9 10)) '-1))
+
