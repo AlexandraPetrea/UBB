@@ -1,0 +1,4 @@
+repository=CSV
+clients=clients.txt
+books=books.txt
+rentals=rentals.txt

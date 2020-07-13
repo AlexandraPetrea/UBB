@@ -1,0 +1,6 @@
+clothing 0
+others 10
+food 20
+housekeeping 0
+internet 0
+transport 0
