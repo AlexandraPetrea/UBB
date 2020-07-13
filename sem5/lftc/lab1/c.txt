@@ -1,0 +1,8 @@
+int ab;
+int ab;
+int 1ba;
+int b; 
+int c;
+a = "a
+b = 2;
+<< a + b;

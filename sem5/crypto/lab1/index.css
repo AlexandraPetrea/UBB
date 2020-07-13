@@ -1,0 +1,14 @@
+.jumbotron {
+  color: black;
+  text-shadow: #444 0 1px 1px;
+  background: transparent;
+}
+
+label {
+  color: black;
+  text-shadow: #444 0 1px 1px;
+}
+body {
+  
+  background-size: cover;
+}

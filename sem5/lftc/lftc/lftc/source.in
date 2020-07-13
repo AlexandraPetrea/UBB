@@ -1,0 +1,11 @@
+INT a;
+BOOL aux;
+INT b; 
+INT c;
+IN a;
+IN b;
+a = a + 1 ;
+WHILE a < 3 START a = a + 2 END ;
+IF a > 6 OUT a ELSE OUT b END;
+c = a * b + 4.5 ; 
+IF b > 6 OUT C END 

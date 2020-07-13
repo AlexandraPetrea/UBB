@@ -1,0 +1,40 @@
+﻿  async.cpp
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(15): error C3861: 'memset': identifier not found
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(16): error C2065: 'ifstream': undeclared identifier
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(16): error C2146: syntax error: missing ';' before identifier 'fin'
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(16): error C3861: 'fin': identifier not found
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(17): error C2065: 'fin': undeclared identifier
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(20): error C2065: 'fin': undeclared identifier
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(25): error C2065: 'fin': undeclared identifier
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(31): error C2065: 'ThreadPool': undeclared identifier
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(31): error C2146: syntax error: missing ';' before identifier 'pool'
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(31): error C3861: 'pool': identifier not found
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(32): error C2065: 'vector': undeclared identifier
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(32): error C2065: 'future': undeclared identifier
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(32): error C2062: type 'int' unexpected
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(33): error C3861: 'min': identifier not found
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(34): error C2065: 'f': undeclared identifier
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(34): error C2039: 'async': is not a member of 'std'
+  d:\sem5\ppd1\lab3-v2\lab3-v2\predefined c++ types (compiler internal)(256): note: see declaration of 'std'
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(34): error C3861: 'async': identifier not found
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(45): error C3861: 'min': identifier not found
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(46): error C2065: 'cerr': undeclared identifier
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(46): error C2065: 'f': undeclared identifier
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(50): error C2065: 'cerr': undeclared identifier
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(52): error C2065: 'cerr': undeclared identifier
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(57): error C2065: 'ThreadPool': undeclared identifier
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(57): error C2146: syntax error: missing ';' before identifier 'pool'
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(57): error C3861: 'pool': identifier not found
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(58): error C2065: 'vector': undeclared identifier
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(58): error C2065: 'future': undeclared identifier
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(58): error C2062: type 'int' unexpected
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(59): error C3861: 'min': identifier not found
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(60): error C2065: 'f': undeclared identifier
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(60): error C2039: 'async': is not a member of 'std'
+  d:\sem5\ppd1\lab3-v2\lab3-v2\predefined c++ types (compiler internal)(256): note: see declaration of 'std'
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(60): error C3861: 'async': identifier not found
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(69): error C3861: 'min': identifier not found
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(70): error C2065: 'cerr': undeclared identifier
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(70): error C2065: 'f': undeclared identifier
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(74): error C2065: 'cerr': undeclared identifier
+d:\sem5\ppd1\lab3-v2\lab3-v2\async.cpp(76): error C2065: 'cerr': undeclared identifier

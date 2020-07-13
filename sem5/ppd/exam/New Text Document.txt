@@ -1,0 +1,4 @@
+https://github.com/alexmatica/uni/tree/master/PPD/Exam
+
+
+https://github.com/Cronologium/university/blob/master/parallel%20and%20distributed%20programming/exam-prep/safe_list.cpp

@@ -1,0 +1,33 @@
+﻿  Source.cpp
+d:\sem5\ppd1\opencl\opencl\source.cpp(48): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+d:\sem5\ppd1\opencl\opencl\source.cpp(54): error C2065: 'clCreateCommandQueueWithProperti': undeclared identifier
+d:\sem5\ppd1\opencl\opencl\source.cpp(55): error C2146: syntax error: missing ';' before identifier 'dispatch_queue_t'
+d:\sem5\ppd1\opencl\opencl\source.cpp(55): error C2065: 'dispatch_queue_t': undeclared identifier
+d:\sem5\ppd1\opencl\opencl\source.cpp(55): error C2146: syntax error: missing ';' before identifier 'queue'
+d:\sem5\ppd1\opencl\opencl\source.cpp(55): error C2065: 'queue': undeclared identifier
+d:\sem5\ppd1\opencl\opencl\source.cpp(56): error C3861: 'gcl_create_dispatch_queue': identifier not found
+d:\sem5\ppd1\opencl\opencl\source.cpp(60): error C2065: 'queue': undeclared identifier
+d:\sem5\ppd1\opencl\opencl\source.cpp(61): error C2065: 'queue': undeclared identifier
+d:\sem5\ppd1\opencl\opencl\source.cpp(61): error C3861: 'create_dispatch_queue': identifier not found
+d:\sem5\ppd1\opencl\opencl\source.cpp(67): error C2065: 'queue': undeclared identifier
+d:\sem5\ppd1\opencl\opencl\source.cpp(67): error C3861: 'gcl_get_device_id_with_dispatch_queue': identifier not found
+d:\sem5\ppd1\opencl\opencl\source.cpp(96): error C3861: 'local_malloc': identifier not found
+d:\sem5\ppd1\opencl\opencl\source.cpp(98): error C3861: 'gcl_malloc': identifier not found
+d:\sem5\ppd1\opencl\opencl\source.cpp(104): error C3861: 'gcl_malloc': identifier not found
+d:\sem5\ppd1\opencl\opencl\source.cpp(109): error C2065: 'queue': undeclared identifier
+d:\sem5\ppd1\opencl\opencl\source.cpp(109): error C2059: syntax error: '{'
+d:\sem5\ppd1\opencl\opencl\source.cpp(109): error C2143: syntax error: missing ';' before '{'
+d:\sem5\ppd1\opencl\opencl\source.cpp(114): error C2065: 'poly_mult_naive_kernel': undeclared identifier
+d:\sem5\ppd1\opencl\opencl\source.cpp(114): error C3861: 'gcl_get_kernel_block_workgroup_info': identifier not found
+d:\sem5\ppd1\opencl\opencl\source.cpp(121): error C2065: 'cl_ndrange': undeclared identifier
+d:\sem5\ppd1\opencl\opencl\source.cpp(121): error C2146: syntax error: missing ';' before identifier 'range'
+d:\sem5\ppd1\opencl\opencl\source.cpp(121): error C2065: 'range': undeclared identifier
+d:\sem5\ppd1\opencl\opencl\source.cpp(146): error C2065: 'range': undeclared identifier
+d:\sem5\ppd1\opencl\opencl\source.cpp(146): error C3861: 'poly_mult_naive_kernel': identifier not found
+d:\sem5\ppd1\opencl\opencl\source.cpp(153): error C3861: 'gcl_memcpy': identifier not found
+d:\sem5\ppd1\opencl\opencl\source.cpp(155): error C2059: syntax error: ')'
+d:\sem5\ppd1\opencl\opencl\source.cpp(164): error C3861: 'gcl_free': identifier not found
+d:\sem5\ppd1\opencl\opencl\source.cpp(165): error C3861: 'gcl_free': identifier not found
+d:\sem5\ppd1\opencl\opencl\source.cpp(166): error C3861: 'gcl_free': identifier not found
+d:\sem5\ppd1\opencl\opencl\source.cpp(174): error C2065: 'queue': undeclared identifier
+d:\sem5\ppd1\opencl\opencl\source.cpp(174): error C3861: 'dispatch_release': identifier not found

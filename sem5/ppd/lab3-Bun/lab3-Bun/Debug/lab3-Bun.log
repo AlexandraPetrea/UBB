@@ -1,0 +1,6 @@
+﻿  lab3-Bun.cpp
+d:\sem5\ppd1\lab3-bun\lab3-bun\lab3-bun.cpp(27): warning C4018: '<': signed/unsigned mismatch
+d:\sem5\ppd1\lab3-bun\lab3-bun\lab3-bun.cpp(48): warning C4018: '<': signed/unsigned mismatch
+d:\sem5\ppd1\lab3-bun\lab3-bun\lab3-bun.cpp(70): warning C4018: '<': signed/unsigned mismatch
+d:\sem5\ppd1\lab3-bun\lab3-bun\lab3-bun.cpp(88): warning C4018: '<': signed/unsigned mismatch
+  lab3-Bun.vcxproj -> D:\sem5\ppd1\lab3-Bun\Debug\lab3-Bun.exe

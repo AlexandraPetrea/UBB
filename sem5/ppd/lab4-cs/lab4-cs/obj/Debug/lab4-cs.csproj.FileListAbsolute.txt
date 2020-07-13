@@ -1,0 +1,2 @@
+D:\sem5\ppd1\lab4-cs\lab4-cs\obj\Debug\lab4-cs.csprojAssemblyReference.cache
+D:\sem5\ppd1\lab4-cs\lab4-cs\obj\Debug\lab4-cs.csproj.CoreCompileInputs.cache

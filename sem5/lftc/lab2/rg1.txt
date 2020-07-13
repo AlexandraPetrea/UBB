@@ -1,0 +1,9 @@
+N = { S, A, B,C} 
+E = { a, b, c, d } 
+S = S 
+P = {
+	S -> aA | E,
+	A -> aA | cB | cC,
+	B -> c,
+	C -> d
+}

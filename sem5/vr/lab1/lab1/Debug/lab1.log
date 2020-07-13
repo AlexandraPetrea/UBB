@@ -1,0 +1,13 @@
+﻿  lodepng.cpp
+d:\sem5\vr\rt-incomplete\lodepng.cpp(103): warning C4005: 'LODEPNG_INLINE': macro redefinition
+  d:\sem5\vr\rt-incomplete\lodepng.cpp(101): note: see previous definition of 'LODEPNG_INLINE'
+d:\sem5\vr\rt-incomplete\lodepng.cpp(111): warning C4005: 'LODEPNG_RESTRICT': macro redefinition
+  d:\sem5\vr\rt-incomplete\lodepng.cpp(109): note: see previous definition of 'LODEPNG_RESTRICT'
+d:\sem5\vr\rt-incomplete\lodepng.cpp(6317): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  main.cpp
+d:\sem5\vr\rt-incomplete\main.cpp(118): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  Sphere.cpp
+d:\sem5\vr\rt-incomplete\sphere.cpp(39): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  lab1.cpp
+d:\sem5\vr\lab1\lab1\lab1.cpp(21): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  Generating Code...
