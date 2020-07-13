@@ -1,0 +1,6 @@
+xmin=-5
+xmax=5
+ymin=-5
+ymax=5
+population dimension=100
+mutation probability=0.02

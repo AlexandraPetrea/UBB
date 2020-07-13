@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+  <head>
+   
+
+    <title>Diply</title>
+ 
+ 
+ 
+    <style>
+      #skip a {  position:absolute;  left:-10000px;  top:auto;  width:1px;  height:1px;  overflow:hidden;  }
+      #skip a:focus {  position:static;  width:auto;  height:auto;  }
+    </style>
+    <style>svg[data-v-22092008]{margin:20px auto;width:100%;height:60px}
+    .ph-item{position:relative;display:flex;flex-wrap:wrap;padding:30px 15px 15px;overflow:hidden;margin-bottom:30px;background-color:#fff;border:1px solid #e6e6e6;border-radius:2px}
+    .ph-item,
+    .ph-item *,
+    .ph-item :after,
+    .ph-item :before{box-sizing:border-box}
+    .ph-item:before{content:" ";position:absolute;top:0;right:0;bottom:0;left:50%;z-index:1;width:500%;margin-left:-250%;animation:a .8s linear infinite;background:linear-gradient(90deg,hsla(0,0%,100%,0) 46%,hsla(0,0%,100%,.35) 50%,hsla(0,0%,100%,0) 54%) 50% 50%}
+    .ph-item>*{flex:1 1 auto;display:flex;flex-flow:column;padding-right:15px;padding-left:15px}
+    .ph-row{display:flex;flex-wrap:wrap;margin-bottom:7.5px}
+    .ph-row div{height:10px;margin-bottom:7.5px;background-color:#ced4da}
+    .ph-row .big,
+    .ph-row
+    .big div{height:20px;margin-bottom:15px}
+    .ph-row .empty{background-color:hsla(0,0%,100%,0)}
+    .ph-col-2{flex:0 0 16.66667%}
+    .ph-col-4{flex:0 0 33.33333%}.ph-col-6{flex:0 0 50%}
+    .ph-col-8{flex:0 0 66.66667%}.ph-col-10{flex:0 0 83.33333%}.ph-col-12{flex:0 0 100%}.is-diply{font-family:Montserrat,Verdana,sans-serif}.is-moviepilot{font-display:swap}*{box-sizing:border-box}.wow{visibility:hidden}.fade-top-enter-active,.fade-top-leave-active{transition:all .2s}.fade-top-enter,.fade-top-leave-to{transform:translateY(-10px);opacity:0}
+
+.social-icon[data-v-778a824d]{fill:#b2daf3;transition:fill .3s}
+.social-icon[data-v-778a824d]:hover{fill:#fff}
+.top-bar[data-v-1ec032c5]{position:fixed;z-index:100;top:0;left:0;width:100%;height:65px;background:#1586d2}
+.content[data-v-1ec032c5]{max-width:1104px;width:100%;height:100%;margin:auto;display:flex;align-items:stretch;justify-content:space-between}
+.logo[data-v-1ec032c5]{height:48px}
+.left[data-v-1ec032c5]{display:flex;align-items:stretch;justify-content:flex-start}
+.right[data-v-1ec032c5]{display:flex;align-items:center}
+.links[data-v-1ec032c5]{display:flex;list-style:none;padding:0;margin:0 0 0 15px;font-family:Montserrat-Bold,Verdana,sans-serif}
+.link[data-v-1ec032c5]{text-transform:uppercase;text-decoration:none;font-weight:700;font-size:12px;color:#fff;display:flex;align-items:center;height:100%;border-bottom:2px solid #1586d2;transition:all .2s;margin-right:8px;padding:0 8px;letter-spacing:.05em}
+.link.active[data-v-1ec032c5],.link.router-link-exact-active[data-v-1ec032c5],.link[data-v-1ec032c5]:hover{border-color:#fff}
+.logo-link[data-v-1ec032c5],.logo-section[data-v-1ec032c5]{display:flex;align-items:center}
+.social-links[data-v-1ec032c5]{display:flex;list-style:none;padding:0;margin:0 0 0 10px}
+.social-link-item+.social-link-item[data-v-1ec032c5]{margin-left:16px}
+.top-bar[data-v-1e57e8c7]{position:fixed;z-index:100;top:0;left:0;width:100%;height:54px;background:#1586d2}
+.logo-link[data-v-1e57e8c7],
+.top-bar[data-v-1e57e8c7]{display:flex;align-items:center;justify-content:center}
+  
+</style>
+    <style type="text/css">
+    
+    </style>
+   
+  <link rel="preload" href="/dist/public/bundle.client.0705b30f3e76ad8abbe8.js" as="script">
+  <link rel="preload" href="/dist/public/styles.css" as="style">
+  <link rel="preload" href="/dist/public/0.bundle.client.0705b30f3e76ad8abbe8.js" as="script">
+  <link rel="stylesheet" href="/dist/public/styles.css">
+  <style data-vue-ssr-id="7db16396:0">.diply-main-page[data-v-4c9060e3]{font-family:Montserrat,sans-serif;padding-top:65px}.is-mobile .diply-main-page[data-v-4c9060e3]{padding-top:0}.content[data-v-4c9060e3]{max-width:1136px;width:100%;height:100%;margin:auto;display:flex;align-items:stretch;justify-content:space-between;flex-direction:column}.middle-section[data-v-4c9060e3]{display:flex;align-items:flex-start;margin-top:20px}.trending-section[data-v-4c9060e3]{min-width:368px;margin-left:10px;margin-top:5px}.is-mobile .content[data-v-4c9060e3]{max-width:767px;width:100%;margin:0 auto}.is-mobile .middle-section[data-v-4c9060e3]{margin-top:0}</style>
+
+  <style data-vue-ssr-id="eedc99b8:0">.originals-section[data-v-243d5aca]{margin-top:30px;width:100%;border-bottom:2px solid #dcdee3;padding-bottom:36px}.original-article-card[data-v-243d5aca]{width:374px;padding:0 14px}</style>
+
+  <style data-vue-ssr-id="72731167:0">.card-image[data-v-72f15e5e]{width:100%;background-size:cover;height:12.375rem;position:relative}.card-image[data-v-72f15e5e]:hover:after{opacity:1}.card-image[data-v-72f15e5e]:after{content:"";position:absolute;top:0;right:0;bottom:0;left:0;background-color:hsla(0,0%,100%,.15);opacity:0;transition:opacity .35s ease}.content[data-v-72f15e5e]{display:flex;align-items:flex-start;margin-top:15px}.right[data-v-72f15e5e]{margin-left:10px}
+.publisher-name[data-v-72f15e5e]{display:inline-block;margin-bottom:.5rem;font-family:Montserrat,Verdana,sans-serif;font-size:.75rem;color:#696e74;text-transform:uppercase;line-height:.875rem;box-shadow:inset 0 -1px 0 #cce7f7;transition:all .3s;font-weight:400;text-decoration:none}.title[data-v-72f15e5e]{color:#111;font-weight:500;line-height:1.375;text-decoration:none;display:block;font-family:Montserrat-SemiBold,Verdana,sans-serif;font-weight:400}</style>
+
+
+  <style data-vue-ssr-id="048b1127:0">.image[data-v-2ed96d6f]{width:100%;background-size:cover;background-position:50% 50%;position:relative}.image[data-v-2ed96d6f]:hover:after{opacity:1}.image[data-v-2ed96d6f]:after{content:"";position:absolute;top:0;right:0;bottom:0;left:0;background-color:hsla(0,0%,100%,.15);opacity:0;transition:opacity .35s ease}.categories[data-v-2ed96d6f]{display:flex;list-style:none;margin:10px 0 0;padding:0}.category-link[data-v-2ed96d6f]{display:inline-block;text-decoration:none;margin-bottom:.5rem;font-family:Montserrat-Medium,Verdana,sans-serif;font-size:.75rem;color:#92979a;text-transform:uppercase;line-height:.875rem;box-shadow:inset 0 -1px 0 #cce7f7;transition:all .3s;font-weight:400}.category-link[data-v-2ed96d6f]:hover{color:#0084d5;box-shadow:inset 0 -1px 0 #0084d5}.category[data-v-2ed96d6f]:not(:first-child):before{content:", ";color:#696e74}.title[data-v-2ed96d6f]{margin:0;font-family:Montserrat-SemiBold,Verdana,sans-serif;line-height:1.2;font-weight:600;margin-top:13px}.categories+.title[data-v-2ed96d6f]{margin-top:0}
+.base-article-link[data-v-2ed96d6f]{text-decoration:none;color:#111}
+.base-article-link[data-v-2ed96d6f]:hover{color:#41474e}
+
+.article-card.columns[data-v-2ed96d6f]{display:flex;flex-direction:row}.article-card.columns .image[data-v-2ed96d6f]{flex:1}
+.article-card.columns .text-section[data-v-2ed96d6f]{margin-left:15px;flex:1}
+.article-card.columns .categories[data-v-2ed96d6f]{margin:0}
+.article-card.columns .text-section .title[data-v-2ed96d6f]{font-size:1.25rem}.video-wrapper[data-v-2ed96d6f]{position:relative}.video-thumbnail[data-v-2ed96d6f]{cursor:pointer}.play-button__circle[data-v-2ed96d6f]{fill:#000;opacity:.3;-webkit-transition:opacity .3s;transition:opacity .3s}</style></head>
+  <body>
+  <div id="skip"><a href="#app">skip to content</a></div>
+  <div id="app" data-server-rendered="true" class="app is-diply"><div class="diply-main-page" data-v-4c9060e3><div class="top-bar" data-v-1ec032c5 data-v-4c9060e3 data-v-4c9060e3><div class="content" data-v-1ec032c5><div class="left" data-v-1ec032c5><div class="logo-section" data-v-1ec032c5><a href="/" class="logo-link router-link-exact-active router-link-active" data-v-1ec032c5><img src="/static/diply/logo.svg" class="logo" data-v-1ec032c5></a></div><ul class="links" data-v-1ec032c5><li class="link-item" data-v-1ec032c5><a href="/" class="link router-link-exact-active router-link-active" data-v-1ec032c5>
+            Home
+          </a></li><li class="link-item" data-v-1ec032c5><a href="/discover/animals" class="link" data-v-1ec032c5>
+            Animals
+          </a></li><li class="link-item" data-v-1ec032c5><a href="/discover/pop-culture" class="link" data-v-1ec032c5>
+            Pop culture
+          </a></li><li class="link-item" data-v-1ec032c5><a href="/discover/humor" class="link" data-v-1ec032c5>
+            Humor
+          </a></li><li class="link-item" data-v-1ec032c5><a href="/publisher/delicious" class="link" data-v-1ec032c5>
+            Delicious
+          </a></li><li class="link-item" data-v-1ec032c5><a href="/publisher/crafty" class="link" data-v-1ec032c5>
+            Crafty
+          </a></li></ul></div>
+          <div class="right" data-v-1ec032c5>
+            <ul class="social-links" data-v-1ec032c5>
+              <li class="social-link-item" data-v-1ec032c5>
+                <a href="https://www.facebook.com/diply/" data-v-1ec032c5>
+                  <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" class="social-icon" style="width:16px;height:16px;" data-v-778a824d data-v-1ec032c5>
+                    <path d="M1376 128q119 0 203.5 84.5t84.5 203.5v960q0 119-84.5 203.5t-203.5 84.5h-188v-595h199l30-232h-229v-148q0-56 23.5-84t91.5-28l122-1v-207q-63-9-178-9-136 0-217.5 80t-81.5 226v171h-200v232h200v595h-532q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960z" data-v-778a824d>
+                      
+                    </path>
+                  </svg>
+                </a>
+              </li>
+
+
+
+              <li class="social-link-item" data-v-1ec032c5><a href="https://twitter.com/diply/" data-v-1ec032c5><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" class="social-icon" style="width:16px;height:16px;" data-v-778a824d data-v-1ec032c5><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z" data-v-778a824d></path></svg></a></li><li class="social-link-item" data-v-1ec032c5><a href="https://www.pinterest.com/diply/" data-v-1ec032c5><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" class="social-icon" style="width:16px;height:16px;" data-v-778a824d data-v-1ec032c5><path d="M1664 896q0 209-103 385.5t-279.5 279.5-385.5 103q-111 0-218-32 59-93 78-164 9-34 54-211 20 39 73 67.5t114 28.5q121 0 216-68.5t147-188.5 52-270q0-114-59.5-214t-172.5-163-255-63q-105 0-196 29t-154.5 77-109 110.5-67 129.5-21.5 134q0 104 40 183t117 111q30 12 38-20 2-7 8-31t8-30q6-23-11-43-51-61-51-151 0-151 104.5-259.5t273.5-108.5q151 0 235.5 82t84.5 213q0 170-68.5 289t-175.5 119q-61 0-98-43.5t-23-104.5q8-35 26.5-93.5t30-103 11.5-75.5q0-50-27-83t-77-33q-62 0-105 57t-43 142q0 73 25 122l-99 418q-17 70-13 177-206-91-333-281t-127-423q0-209 103-385.5t279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z" data-v-778a824d></path></svg></a></li><li class="social-link-item" data-v-1ec032c5><a href="https://www.instagram.com/diply/" data-v-1ec032c5><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg" class="social-icon" style="width:16px;height:16px;" data-v-778a824d data-v-1ec032c5></svg></a></li></ul></div></div></div>
+          <!----><div class="content" data-v-4c9060e3><div class="originals-section" data-v-243d5aca data-v-4c9060e3><div group-cells="true" page-dots="true" class="base-carousel" data-v-243d5aca><div class="original-article-card" data-v-72f15e5e data-v-243d5aca><a href="/10402/16-people-who-wont-let-anything-stop-them" class="base-article-link" data-v-72f15e5e><div class="card-image" style="background-image:url(//diply.imgix.net/article-images/a/dc7aba5c-b055-4003-93a6-1ef3fef361d6_desktop.png);" data-v-72f15e5e></div></a><div class="content" data-v-72f15e5e><div class="left" data-v-72f15e5e><a href="/publisher/crafty" data-v-72f15e5e><svg viewBox="0 0 32 15.9" class="publisher-avatar original-publisher-avatar" style="width:43px;height:43px;" data-v-01fe7334 data-v-72f15e5e><path d="a.jpg" class="avatar-svg--blue" data-v-01fe7334></path></svg></a></div>
+
+          <div class="right" data-v-72f15e5e>
+            <a href="/publisher/crafty" class="publisher-name" data-v-72f15e5e>
+        Crafty
+      </a>
+      <a href="/10402/16-people-who-wont-let-anything-stop-them" class="base-article-link title" data-v-72f15e5e>
+        16 People Who Won't Let Anything Stop Them
+      </a></div></div></div>
+
+      <div class="original-article-card" data-v-72f15e5e data-v-243d5aca>
+        <a href="/10407/16-funny-pics-we-werent-ready-for" class="base-article-link" data-v-72f15e5e>
+        <div class="card-image" style="background-image:url(a.jpg);" data-v-72f15e5e></div></a><div class="content" data-v-72f15e5e><div class="left" data-v-72f15e5e><a href="/publisher/delicious" data-v-72f15e5e><svg viewBox="0 0 32 8.5" class="publisher-avatar original-publisher-avatar" style="width:43px;height:43px;" data-v-0bd7d93e data-v-72f15e5e></svg></a></div><div class="right" data-v-72f15e5e><a href="/publisher/delicious" class="publisher-name" data-v-72f15e5e>
+        Delicious
+      </a><a href="a.jpg" class="base-article-link title" data-v-72f15e5e>
+        16 Funny Pics We Weren't Ready For
+      </a></div></div></div><div class="original-article-card" data-v-72f15e5e data-v-243d5aca><a href="a.jpg" class="base-article-link" data-v-72f15e5e><div class="card-image" style="background-image:url(//diply.imgix.net/article-images/a/f939d7fa-b7c7-4e20-a941-346a577add1a_desktop.png);" data-v-72f15e5e></div></a><div class="content" data-v-72f15e5e><div class="left" data-v-72f15e5e><a href="/publisher/life-unfiltered" data-v-72f15e5e><img src="https://cdn.diply.com/static-images/subbrands/life-unfiltered-avatar.png" class="publisher-avatar original-publisher-avatar" style="width:43px;height:43px;" data-v-381297ce data-v-72f15e5e></a></div><div class="right" data-v-72f15e5e><a href="/publisher/life-unfiltered" class="publisher-name" data-v-72f15e5e>
+        Life Unfiltered
+      </a><a href="/10412/heres-which-prom-dress-you-should-wear-based-on-your-zodiac-sign" class="base-article-link title" data-v-72f15e5e>
+        Here's Which Prom Dress You Should Wear Based On Your Zodiac Sign
+      </a></div></div></div><div class="original-article-card" data-v-72f15e5e data-v-243d5aca><a href="/10402/16-people-who-wont-let-anything-stop-them" class="base-article-link" data-v-72f15e5e><div class="card-image" style="background-image:url(//diply.imgix.net/article-images/a/dc7aba5c-b055-4003-93a6-1ef3fef361d6_desktop.png);" data-v-72f15e5e></div></a><div class="content" data-v-72f15e5e><div class="left" data-v-72f15e5e><a href="/publisher/crafty" data-v-72f15e5e><svg viewBox="0 0 32 15.9" class="publisher-avatar original-publisher-avatar" style="width:43px;height:43px;" data-v-01fe7334 data-v-72f15e5e></svg></a></div><div class="right" data-v-72f15e5e><a href="/publisher/crafty" class="publisher-name" data-v-72f15e5e>
+        Crafty
+      </a><a href="/10402/16-people-who-wont-let-anything-stop-them" class="base-article-link title" data-v-72f15e5e>
+        16 People Who Won't Let Anything Stop Them
+      </a></div></div></div><div class="original-article-card" data-v-72f15e5e data-v-243d5aca><a href="/10407/16-funny-pics-we-werent-ready-for" class="base-article-link" data-v-72f15e5e><div class="card-image" style="background-image:url(a.jpg);" data-v-72f15e5e></div></a><div class="content" data-v-72f15e5e><div class="left" data-v-72f15e5e><a href="/publisher/delicious" data-v-72f15e5e><svg viewBox="0 0 32 8.5" class="publisher-avatar original-publisher-avatar" style="width:43px;height:43px;" data-v-0bd7d93e data-v-72f15e5e></svg></a></div><div class="right" data-v-72f15e5e><a href="/publisher/delicious" class="publisher-name" data-v-72f15e5e>
+        Delicious
+      </a><a href="/10407/16-funny-pics-we-werent-ready-for" class="base-article-link title" data-v-72f15e5e>
+        16 Funny Pics We Weren't Ready For
+      </a></div></div></div><div class="original-article-card" data-v-72f15e5e data-v-243d5aca><a href="/10412/heres-which-prom-dress-you-should-wear-based-on-your-zodiac-sign" class="base-article-link" data-v-72f15e5e><div class="card-image" style="background-image:url(//diply.imgix.net/article-images/a/f939d7fa-b7c7-4e20-a941-346a577add1a_desktop.png);" data-v-72f15e5e></div></a><div class="content" data-v-72f15e5e><div class="left" data-v-72f15e5e><a href="/publisher/life-unfiltered" data-v-72f15e5e><img src="https://cdn.diply.com/static-images/subbrands/life-unfiltered-avatar.png" class="publisher-avatar original-publisher-avatar" style="width:43px;height:43px;" data-v-381297ce data-v-72f15e5e></a></div><div class="right" data-v-72f15e5e><a href="/publisher/life-unfiltered" class="publisher-name" data-v-72f15e5e>
+        Life Unfiltered
+      </a><a href="/10412/heres-which-prom-dress-you-should-wear-based-on-your-zodiac-sign" class="base-article-link title" data-v-72f15e5e>
+        Here's Which Prom Dress You Should Wear Based On Your Zodiac Sign
+      </a></div></div></div></div></div><div class="latest-section" data-v-61e82967 data-v-4c9060e3>
+        <div class="lastest-wrapper" data-v-61e82967><h4 class="title" data-v-61e82967>Latest</h4>
+
+        <div class="latest-articles" data-v-61e82967><div class="article-card columns" data-v-2ed96d6f data-v-61e82967><a href="/30323/woman-has-a-drunken-in-flight-meltdown-after-having-to-sit-next-" class="base-article-link" data-v-2ed96d6f><div class="image" style="background-image:url(//surgefs.imgix.net/quality=v:80/t25I0CRTZGHe0ykjZYfw);max-width:320px;min-width:320px;height:175px;" data-v-2ed96d6f></div></a><!----><div class="text-section" data-v-2ed96d6f><!----><h4 class="title" style="font-size:20px;" data-v-2ed96d6f><a href="/30323/woman-has-a-drunken-in-flight-meltdown-after-having-to-sit-next-" class="base-article-link" data-v-2ed96d6f>
+        Woman Has A Drunken In-Flight Meltdown After Having To Sit Next To A Toddler On Plane
+      </a></h4></div></div><div class="article-card columns" data-v-2ed96d6f data-v-61e82967><a href="/30280/106-year-old-woman-who-started-drumming-in-1920-is-turning-heads" class="base-article-link" data-v-2ed96d6f><div class="image" style="background-image:url(//surgefs.imgix.net/quality=v:80/jYZHGAQIQWimcxJ6wdCR);max-width:320px;min-width:320px;height:175px;" data-v-2ed96d6f></div></a><!----><div class="text-section" data-v-2ed96d6f><!----><h4 class="title" style="font-size:20px;" data-v-2ed96d6f><a href="/30280/106-year-old-woman-who-started-drumming-in-1920-is-turning-heads" class="base-article-link" data-v-2ed96d6f>
+        106-Year-Old Woman Who Started Drumming In 1920 Is Turning Heads By Still Going
+      </a></h4></div></div></a>
+      </div></div><div class="trending-section" data-v-68da066e data-v-4c9060e3><div class="header" data-v-68da066e><svg id="trending-diply" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fit height="100%" width="100%" preserveAspectRatio="xMidYMid meet" focusable="false" data-v-68da066e><path d="M16,0A16,16,0,1,0,32,16,16,16,0,0,0,16,0Z" class="trending-icon__svg-circle" data-v-68da066e></path><path d="M27.06,10.08a.93.93,0,0,0-.86-.57H20.64a.93.93,0,0,0,0,1.85H24l-6.57,6.57-4-4a.93.93,0,0,0-1.31,0l-7,7a.93.93,0,1,0,1.31,1.31l6.3-6.3,4,4a.93.93,0,0,0,1.31,0l7.23-7.23V16a.93.93,0,1,0,1.85,0V10.44A.93.93,0,0,0,27.06,10.08Z" class="trending-icon__svg-arrow" data-v-68da066e></path></svg><h4 class="title" data-v-68da066e>Trending</h4></div><div class="trending-articles" data-v-68da066e><div class="article-card columns" data-v-2ed96d6f data-v-68da066e><a href="/1301/24-pics-that-haters-will-say-are-photoshopped" class="base-article-link" data-v-2ed96d6f><div class="image" style="background-image:url(a.jpg);max-width:156px;min-width:156px;height:110px;" data-v-2ed96d6f></div></a><!----><div class="text-section" data-v-2ed96d6f><!----><h4 class="title" style="font-size:16px;" data-v-2ed96d6f><a href="/1301/24-pics-that-haters-will-say-are-photoshopped" class="base-article-link" data-v-2ed96d6f>
+        24 Pics That Haters Will Say Are Photoshopped
+      </a></h4></div></div><div class="article-card columns" data-v-2ed96d6f data-v-68da066e><a href="/1321/21-people-who-slapped-their-haters-down" class="base-article-link" data-v-2ed96d6f><div class="image" style="background-image:url(a.jpg);max-width:156px;min-width:156px;height:110px;" data-v-2ed96d6f></div></a><!----><div class="text-section" data-v-2ed96d6f><!----><h4 class="title" style="font-size:16px;" data-v-2ed96d6f><a href="/1321/21-people-who-slapped-their-haters-down" class="base-article-link" data-v-2ed96d6f>
+        21 People Who Slapped Their Haters Down
+      </a></h4></div></div><div class="article-card columns" data-v-2ed96d6f data-v-68da066e><a href="/1180/42-times-the-world-just-stopped-making-sense" class="base-article-link" data-v-2ed96d6f><div class="image" style="background-image:url(//diply.imgix.net/article-images/a/7c8ba17a-aedd-428b-99e1-9c8bace9fc55_desktop.png);max-width:156px;min-width:156px;height:110px;" data-v-2ed96d6f></div></a><!----><div class="text-section" data-v-2ed96d6f><!----><h4 class="title" style="font-size:16px;" data-v-2ed96d6f><a href="/1180/42-times-the-world-just-stopped-making-sense" class="base-article-link" data-v-2ed96d6f>
+     
+       
+  <script>
+  
+  </script>  
+  </body>
+</html>

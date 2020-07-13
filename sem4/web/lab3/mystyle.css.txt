@@ -1,0 +1,341 @@
+﻿.main-wrapper{
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+    
+}
+
+.header-elems{
+    margin: auto;
+}
+
+.search-bar-wrapper{
+    padding: 5px;
+}
+.search-bar{
+    background-color: #f2f3f5!important;
+    border: 1px solid transparent;
+    height: 45px;
+    padding: 0 15px;
+    border-radius: 2px 0 0 2px;
+}
+
+.search-bar:hover{
+    background-color: #ffff!important;
+    border: 1px solid transparent;
+    height: 45px;
+    padding: 0 15px;
+    border-radius: 2px 0 0 2px;
+}
+
+.search-bar-btn{
+    margin-left: -6px;
+    margin-bottom: -18px;
+
+}
+
+.business{
+    color: #505763;
+    white-space: nowrap;
+    display: block;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 12px 15px;
+    text-decoration: none;
+}
+
+
+
+.business:hover .drop-business{
+    display: block;
+    background-color: white;
+    border-radius: 2px;
+    border: transparent 10px gray;
+}
+
+.drop-business{
+    display: none;
+    position: absolute;
+    width: 300px;
+    font-size: 15px;
+    padding: 25px 20px;
+    box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+    color:#505763;
+    top: 70px;
+    right: 325px;
+    z-index: 10;
+    
+}
+
+
+.teach{
+    color: #505763;
+    white-space: nowrap;
+    display: block;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 12px 15px;
+    text-decoration: none;
+}
+
+
+
+.teach:hover .drop-teach{
+    display: block;
+    background-color: white;
+    border-radius: 2px;
+    border: transparent 10px gray;
+}
+
+.drop-teach{
+    display: none;
+    position: absolute;
+    width: 300px;
+    font-size: 15px;
+    padding: 25px 20px;
+    box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+    color:#505763;
+    top: 70px;
+    right: 100px;
+    z-index: 10;
+    
+}
+
+.drop-business-message{
+    font-size: 15px;
+    padding: 25px 20px;
+    border-top: none;
+    text-align: center;
+    font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif
+}
+
+.drop-business-link{
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 13px;
+    text-decoration: none;
+    color:#007791;
+    box-sizing: border-box;
+
+}
+
+.log-in-btn{
+    border: 1px solid black;
+    height: 40px;
+    background-color: ghostwhite;
+    width: 70px;
+    border: 1px solid #505763;
+    font-size: 15px;
+    color: #686f7a;
+    border-radius: 2px;
+}
+
+.log-in-btn:hover{
+    background-color: #505763;
+    color: ghostwhite;
+}
+
+.sign-up-btn{
+    border: 1px solid black;
+    height: 40px;
+    background-color: #ec5252;
+    width: 70px;
+    border: 1px solid #505763;
+    font-size: 15px;
+    color: ghostwhite;
+    border-radius: 2px;
+    
+}
+
+
+.sign-up-btn:hover{
+    background-color: #cf3131;
+   
+}
+
+.text-header{
+    height: 40px;
+    width: 150px;
+    
+    color: #505763;
+    white-space: nowrap;
+    text-align: center;
+    border: 0px;
+    text-decoration: none;
+    background-color: white;
+}
+
+.text-header:hover{
+    border: 1px solid gray;
+    border-radius : 2px;
+    background-color: #e5e5eb;
+}
+
+
+
+.header2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 35px;
+    background-color: #f7f8fa;
+    margin-top: 5px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.text-header2{
+    text-align: center;
+    color:#686f7a;
+    font-weight: 500;
+    font-size: 13px;
+    height: auto;
+    width: auto;
+    font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif
+}
+
+.text-header2:hover{
+    background-color: #e5e5eb;
+}
+
+.content1{
+    background-color: #29303b;
+    color:white;
+    height: 250px;
+    padding-left: 70px;
+    padding-top: 50px;
+}
+
+.content1-h1{
+    font-size: 36px;
+    line-height: 41px;
+    font-weight: 600;
+
+}
+
+.content1-h2{
+    font-size: 21px;
+    line-height: 27px;
+    box-sizing: border-box;
+    font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.content1-h3{
+    font-size: 15px;
+    
+    line-height: 27px;
+    box-sizing: border-box;
+    font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.right-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2.5px white solid;
+    width: 354px;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+    position: absolute;
+    right: 100px;
+    top: 200px;
+}
+
+.right-box-text{
+    margin-left: 15px;
+    margin-top: 33px;
+    color: #a1a7b3;
+    font-size: 20px;
+    font-weight: 300;
+    
+}
+
+.right-box-text-h1{
+    color: #505763;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-right: 10px;
+    margin-left: 30px;
+    font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.buy-now-btn{
+    height: 50px;
+    width: 300px;
+    padding: 16px 12px;
+    background: #ec5252;
+    border: 1px solid transparent;
+    color: white;
+    font-family:Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.add-cart-btn{
+    height: 50px;
+    width: 300px;
+    padding: 16px 12px;
+    background: white;
+    border: 1px solid black;
+    color: gray;
+    font-family:Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.right-box-li{
+       padding: 2px;
+       font-size: 13px;
+       color:#505763;
+}
+
+.coupon-btn{
+    padding: 6px 10px;
+    font-size: 15px;
+    line-height: 1.35135;
+    border-radius: 2px;
+    display: block;
+    width: 100%;
+    border-color: transparent;
+    color: #007791;
+    font-weight: 400;
+    background-color: white;
+    
+}
+
+.content2{
+    background-color: #f9f9f9;
+    border: 1px solid #dedfe0;
+    padding: 10px 15px;
+    height: 327px;
+    width: 700px;
+    margin-left: 300px;
+    position: absolute;
+    right: 500px;
+    top: 450px;
+
+    
+}
+
+.content2-h2{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 10px;
+    color: #29303b;
+}
+
+.content2-li{
+    width: 250px;
+    padding: 10px;
+
+}

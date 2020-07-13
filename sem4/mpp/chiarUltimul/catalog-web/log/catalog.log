@@ -1,0 +1,113 @@
+2017-05-19T09:52:33,359 TRACE [main]: StudentController                    - deleteStudent: studentId=1 
+2017-05-19T09:52:33,368 TRACE [main]: StudentController                    - deleteStudent - method end 
+2017-05-19T09:52:33,483 TRACE [main]: StudentController                    - getStudents 
+2017-05-19T09:52:33,485 TRACE [main]: StudentController                    - getStudents: students=[Student{serialNumber='sn1', name='s1', groupNumber=1} BaseEntity{id=1}, Student{serialNumber='sn2', name='s2', groupNumber=2} BaseEntity{id=null}] 
+2017-05-19T09:52:33,922 TRACE [main]: StudentController                    - createStudent: studentDtoMap={student=StudentDto{serialNumber='sn1', name='s1', groupNumber=1, disciplines=null} BaseDto(id=null)} 
+2017-05-19T09:52:33,922 TRACE [main]: StudentController                    - updateStudent: result={student=StudentDto{serialNumber='sn1', name='s1', groupNumber=1, disciplines=null} BaseDto(id=null)} 
+2017-05-19T09:52:33,984 TRACE [main]: StudentController                    - updateStudent: studentId=1, studentDtoMap={student=StudentDto{serialNumber='sn1', name='s1', groupNumber=1, disciplines=null} BaseDto(id=null)} 
+2017-05-19T09:52:33,985 TRACE [main]: StudentController                    - updateStudent: result={student=StudentDto{serialNumber='sn2', name='s2', groupNumber=2, disciplines=null} BaseDto(id=null)} 
+2017-05-22T16:29:30,209 TRACE [main]: StudentController                    - getStudents 
+2017-05-22T16:29:30,215 TRACE [main]: StudentController                    - getStudents: students=[Student{serialNumber='sn1', name='s1', groupNumber=null} BaseEntity{id=1}, Student{serialNumber='sn2', name='s2', groupNumber=null} BaseEntity{id=2}] 
+2017-05-22T16:30:02,557 TRACE [main]: StudentController                    - getStudents 
+2017-05-22T16:30:02,563 TRACE [main]: StudentController                    - getStudents: students=[Student{serialNumber='sn1', name='s1', groupNumber=null} BaseEntity{id=1}, Student{serialNumber='sn2', name='s2', groupNumber=null} BaseEntity{id=2}] 
+2017-05-22T16:30:32,372 TRACE [main]: StudentController                    - getStudents 
+2017-05-22T16:30:32,379 TRACE [main]: StudentController                    - getStudents: students=[Student{serialNumber='sn1', name='s1', groupNumber=null} BaseEntity{id=1}, Student{serialNumber='sn2', name='s2', groupNumber=null} BaseEntity{id=2}] 
+2017-05-22T16:32:44,661 TRACE [main]: StudentController                    - getStudents 
+2017-05-22T16:32:44,668 TRACE [main]: StudentController                    - getStudents: students=[Student{serialNumber='sn1', name='s1', groupNumber=null} BaseEntity{id=1}, Student{serialNumber='sn2', name='s2', groupNumber=null} BaseEntity{id=2}] 
+2017-05-22T16:34:00,111 TRACE [main]: StudentController                    - getStudents 
+2017-05-22T16:34:00,122 TRACE [main]: StudentController                    - getStudents: students=[Student{serialNumber='sn1', name='s1', groupNumber=null} BaseEntity{id=1}, Student{serialNumber='sn2', name='s2', groupNumber=null} BaseEntity{id=2}] 
+2017-05-22T16:34:41,379 TRACE [main]: StudentController                    - getStudents 
+2017-05-22T16:34:41,385 TRACE [main]: StudentController                    - getStudents: students=[Student{serialNumber='sn1', name='s1', groupNumber=null} BaseEntity{id=1}, Student{serialNumber='sn2', name='s2', groupNumber=null} BaseEntity{id=2}] 
+2017-05-22T16:38:20,740 TRACE [main]: StudentController                    - getStudents 
+2017-05-22T16:38:20,746 TRACE [main]: StudentController                    - getStudents: students=[Student{serialNumber='sn1', name='s1', groupNumber=null} BaseEntity{id=1}, Student{serialNumber='sn2', name='s2', groupNumber=null} BaseEntity{id=2}] 
+2017-05-22T16:57:02,611 TRACE [main]: StudentController                    - getStudents 
+2017-05-22T16:57:02,616 TRACE [main]: StudentController                    - getStudents: students=[Student{serialNumber='sn1', name='s1', groupNumber=null} BaseEntity{id=1}, Student{serialNumber='sn2', name='s2', groupNumber=null} BaseEntity{id=2}] 
+2017-05-22T16:57:02,971 WARN  [main]: DefaultHandlerExceptionResolver      - Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.util.Map<java.lang.String, ro.ubb.catalog.web.dto.StudentDto> ro.ubb.catalog.web.controller.StudentController.updateStudent(java.lang.Long,java.util.Map<java.lang.String, ro.ubb.catalog.web.dto.StudentDto>) 
+2017-05-22T17:02:14,035 TRACE [main]: StudentController                    - getStudents 
+2017-05-22T17:02:14,039 TRACE [main]: StudentController                    - getStudents: students=[Student{serialNumber='sn1', name='s1', groupNumber=null} BaseEntity{id=1}, Student{serialNumber='sn2', name='s2', groupNumber=null} BaseEntity{id=2}] 
+2017-05-22T17:02:14,467 TRACE [main]: StudentController                    - updateStudent: studentId=1, studentDtoMap={student=StudentDto{serialNumber='sn1', name='s1', groupNumber=null, disciplines=null} BaseDto(id=1)} 
+2017-05-22T17:02:14,468 TRACE [main]: StudentController                    - updateStudent: result={student=StudentDto{serialNumber='sn1', name='s1', groupNumber=null, disciplines=null} BaseDto(id=1)} 
+2017-05-22T17:25:00,531 TRACE [main]: StudentController                    - getStudents 
+2017-05-22T17:25:00,535 TRACE [main]: StudentController                    - getStudents: students=[Student{serialNumber='sn1', name='s1', groupNumber=null} BaseEntity{id=1}, Student{serialNumber='sn2', name='s2', groupNumber=null} BaseEntity{id=2}] 
+2017-05-22T17:25:00,860 TRACE [main]: StudentController                    - updateStudent: studentId=1, studentDtoMap={student=StudentDto{serialNumber='sn1', name='s1', groupNumber=null, disciplines=null} BaseDto(id=1)} 
+2017-05-22T17:25:00,861 TRACE [main]: StudentController                    - updateStudent: result={student=StudentDto{serialNumber='sn1', name='s1', groupNumber=null, disciplines=null} BaseDto(id=1)} 
+2017-05-22T17:25:30,721 TRACE [main]: StudentController                    - getStudents 
+2017-05-22T17:25:30,731 TRACE [main]: StudentController                    - getStudents: students=[Student{serialNumber='sn1', name='s1', groupNumber=null} BaseEntity{id=1}, Student{serialNumber='sn2', name='s2', groupNumber=null} BaseEntity{id=2}] 
+2017-05-22T17:25:31,105 TRACE [main]: StudentController                    - updateStudent: studentId=1, studentDtoMap={student=StudentDto{serialNumber='sn1', name='s1', groupNumber=null, disciplines=null} BaseDto(id=1)} 
+2017-05-22T17:25:31,106 TRACE [main]: StudentController                    - updateStudent: result={student=StudentDto{serialNumber='sn1', name='s1', groupNumber=null, disciplines=null} BaseDto(id=1)} 
+2017-05-22T17:26:14,378 TRACE [main]: StudentController                    - getStudents 
+2017-05-22T17:26:14,393 TRACE [main]: StudentController                    - getStudents: students=[Student{serialNumber='sn1', name='s1', groupNumber=null} BaseEntity{id=1}, Student{serialNumber='sn2', name='s2', groupNumber=null} BaseEntity{id=2}] 
+2017-05-22T17:26:14,955 TRACE [main]: StudentController                    - updateStudent: studentId=1, studentDtoMap={student=StudentDto{serialNumber='sn1', name='s1', groupNumber=null, disciplines=null} BaseDto(id=1)} 
+2017-05-22T17:26:14,956 TRACE [main]: StudentController                    - updateStudent: result={student=StudentDto{serialNumber='sn1', name='s1', groupNumber=null, disciplines=null} BaseDto(id=1)} 
+2017-05-22T17:27:48,414 TRACE [main]: StudentController                    - getStudents 
+2017-05-22T17:27:48,420 TRACE [main]: StudentController                    - getStudents: students=[Student{serialNumber='sn1', name='s1', groupNumber=null} BaseEntity{id=1}, Student{serialNumber='sn2', name='s2', groupNumber=null} BaseEntity{id=2}] 
+2017-05-22T17:27:49,067 TRACE [main]: StudentController                    - updateStudent: studentId=1, studentDtoMap={student=StudentDto{serialNumber='sn1', name='s1', groupNumber=null, disciplines=null} BaseDto(id=1)} 
+2017-05-22T17:27:49,068 TRACE [main]: StudentController                    - updateStudent: result={student=StudentDto{serialNumber='sn1', name='s1', groupNumber=null, disciplines=null} BaseDto(id=1)} 
+2017-05-22T17:28:24,759 TRACE [main]: StudentController                    - getStudents 
+2017-05-22T17:28:24,765 TRACE [main]: StudentController                    - getStudents: students=[Student{serialNumber='sn1', name='s1', groupNumber=null} BaseEntity{id=1}, Student{serialNumber='sn2', name='s2', groupNumber=null} BaseEntity{id=2}] 
+2017-05-22T17:28:25,155 TRACE [main]: StudentController                    - updateStudent: studentId=1, studentDtoMap={student=StudentDto{serialNumber='sn1', name='s1', groupNumber=null, disciplines=null} BaseDto(id=1)} 
+2017-05-22T17:28:25,156 TRACE [main]: StudentController                    - updateStudent: result={student=StudentDto{serialNumber='sn1', name='s1', groupNumber=null, disciplines=null} BaseDto(id=1)} 
+2017-05-24T08:06:03,508 TRACE [main]: StudentController                    - getStudents 
+2017-05-24T08:06:03,517 TRACE [main]: StudentController                    - getStudents: students=[Student{serialNumber='sn1', name='s1', groupNumber=null} BaseEntity{id=1}, Student{serialNumber='sn2', name='s2', groupNumber=null} BaseEntity{id=2}] 
+2017-05-24T08:06:04,025 TRACE [main]: StudentController                    - updateStudent: studentId=1, studentDtoMap={student=StudentDto{serialNumber='sn1', name='s1', groupNumber=null, disciplines=null} BaseDto(id=1)} 
+2017-05-24T08:06:04,025 TRACE [main]: StudentController                    - updateStudent: result={student=StudentDto{serialNumber='sn1', name='s1', groupNumber=null, disciplines=null} BaseDto(id=1)} 
+2018-05-20T10:24:45,838 TRACE [main]: StudentController                    - getStudents 
+2018-05-20T10:24:45,852 TRACE [main]: StudentController                    - getStudents: students=[Student{serialNumber='sn1', name='s1', groupNumber=null} BaseEntity{id=1}, Student{serialNumber='sn2', name='s2', groupNumber=null} BaseEntity{id=2}] 
+2018-05-20T10:24:46,671 TRACE [main]: StudentController                    - updateStudent: studentId=1, studentDtoMap=StudentDto{serialNumber='null', name='null', groupNumber=null, disciplines=null} BaseDto(id=null) 
+2018-05-20T10:24:46,675 TRACE [main]: StudentController                    - updateStudent: result=null 
+2018-05-20T10:25:50,480 TRACE [main]: StudentController                    - getStudents 
+2018-05-20T10:25:50,484 TRACE [main]: StudentController                    - getStudents: students=[Student{serialNumber='sn1', name='s1', groupNumber=null} BaseEntity{id=1}, Student{serialNumber='sn2', name='s2', groupNumber=null} BaseEntity{id=2}] 
+2018-05-20T10:25:50,855 TRACE [main]: StudentController                    - updateStudent: studentId=1, studentDtoMap=StudentDto{serialNumber='null', name='null', groupNumber=null, disciplines=null} BaseDto(id=null) 
+2018-05-20T10:25:50,858 TRACE [main]: StudentController                    - updateStudent: result=null 
+2018-05-20T10:26:02,651 TRACE [main]: StudentController                    - getStudents 
+2018-05-20T10:26:02,686 TRACE [main]: StudentController                    - getStudents: students=[Student{serialNumber='sn1', name='s1', groupNumber=null} BaseEntity{id=1}, Student{serialNumber='sn2', name='s2', groupNumber=null} BaseEntity{id=2}] 
+2018-05-20T10:26:04,436 TRACE [main]: StudentController                    - updateStudent: studentId=1, studentDtoMap=StudentDto{serialNumber='null', name='null', groupNumber=null, disciplines=null} BaseDto(id=null) 
+2018-05-20T10:26:04,437 TRACE [main]: StudentController                    - updateStudent: result=null 
+2018-05-20T10:26:33,406 TRACE [main]: StudentController                    - getStudents 
+2018-05-20T10:26:33,411 TRACE [main]: StudentController                    - getStudents: students=[Student{serialNumber='sn1', name='s1', groupNumber=null} BaseEntity{id=1}, Student{serialNumber='sn2', name='s2', groupNumber=null} BaseEntity{id=2}] 
+2018-05-20T10:26:33,760 TRACE [main]: StudentController                    - updateStudent: studentId=1, studentDtoMap=StudentDto{serialNumber='null', name='null', groupNumber=null, disciplines=null} BaseDto(id=null) 
+2018-05-20T10:26:33,760 TRACE [main]: StudentController                    - updateStudent: result=null 
+2018-05-20T10:26:52,489 TRACE [main]: StudentController                    - getStudents 
+2018-05-20T10:26:52,495 TRACE [main]: StudentController                    - getStudents: students=[Student{serialNumber='sn1', name='s1', groupNumber=null} BaseEntity{id=1}, Student{serialNumber='sn2', name='s2', groupNumber=null} BaseEntity{id=2}] 
+2018-05-20T10:26:53,320 TRACE [main]: StudentController                    - updateStudent: studentId=1, studentDtoMap=StudentDto{serialNumber='null', name='null', groupNumber=null, disciplines=null} BaseDto(id=null) 
+2018-05-20T10:26:53,321 TRACE [main]: StudentController                    - updateStudent: result=null 
+2018-05-20T10:30:36,044 TRACE [main]: StudentController                    - getStudents 
+2018-05-20T10:30:36,049 TRACE [main]: StudentController                    - getStudents: students=[Student{serialNumber='sn1', name='s1', groupNumber=null} BaseEntity{id=1}, Student{serialNumber='sn2', name='s2', groupNumber=null} BaseEntity{id=2}] 
+2018-05-20T10:30:36,422 TRACE [main]: StudentController                    - updateStudent: studentId=1, studentDtoMap=StudentDto{serialNumber='null', name='null', groupNumber=null, disciplines=null} BaseDto(id=null) 
+2018-05-20T10:30:36,423 TRACE [main]: StudentController                    - updateStudent: result=null 
+2018-05-20T10:33:33,483 TRACE [main]: StudentController                    - getStudents 
+2018-05-20T10:33:33,490 TRACE [main]: StudentController                    - getStudents: students=[Student{serialNumber='sn1', name='s1', groupNumber=null} BaseEntity{id=1}, Student{serialNumber='sn2', name='s2', groupNumber=null} BaseEntity{id=2}] 
+2018-05-20T10:33:34,019 TRACE [main]: StudentController                    - updateStudent: studentId=1, studentDtoMap=StudentDto{serialNumber='null', name='null', groupNumber=null, disciplines=null} BaseDto(id=null) 
+2018-05-20T10:33:34,019 TRACE [main]: StudentController                    - updateStudent: result=null 
+2018-05-20T10:34:06,846 TRACE [main]: StudentController                    - getStudents 
+2018-05-20T10:34:06,849 TRACE [main]: StudentController                    - getStudents: students=[Student{serialNumber='sn1', name='s1', groupNumber=null} BaseEntity{id=1}, Student{serialNumber='sn2', name='s2', groupNumber=null} BaseEntity{id=2}] 
+2018-05-20T10:34:07,243 TRACE [main]: StudentController                    - updateStudent: studentId=1, studentDtoMap=StudentDto{serialNumber='null', name='null', groupNumber=null, disciplines=null} BaseDto(id=null) 
+2018-05-20T10:34:07,244 TRACE [main]: StudentController                    - updateStudent: result=null 
+2018-05-20T10:37:12,590 TRACE [main]: StudentController                    - getStudents 
+2018-05-20T10:37:12,595 TRACE [main]: StudentController                    - getStudents: students=[Student{serialNumber='sn1', name='s1', groupNumber=null} BaseEntity{id=1}, Student{serialNumber='sn2', name='s2', groupNumber=null} BaseEntity{id=2}] 
+2018-05-20T10:37:13,022 TRACE [main]: StudentController                    - updateStudent: studentId=1, studentDtoMap=StudentDto{serialNumber='null', name='null', groupNumber=null, disciplines=null} BaseDto(id=null) 
+2018-05-20T10:37:13,022 TRACE [main]: StudentController                    - updateStudent: result=null 
+2018-05-20T10:37:43,013 TRACE [main]: StudentController                    - getStudents 
+2018-05-20T10:37:43,019 TRACE [main]: StudentController                    - getStudents: students=[Student{serialNumber='sn1', name='s1', groupNumber=null} BaseEntity{id=1}, Student{serialNumber='sn2', name='s2', groupNumber=null} BaseEntity{id=2}] 
+2018-05-20T10:37:43,411 TRACE [main]: StudentController                    - updateStudent: studentId=1, studentDtoMap=StudentDto{serialNumber='null', name='null', groupNumber=null, disciplines=null} BaseDto(id=null) 
+2018-05-20T10:37:43,412 TRACE [main]: StudentController                    - updateStudent: result=null 
+2018-05-20T10:38:05,150 TRACE [main]: StudentController                    - getStudents 
+2018-05-20T10:38:05,156 TRACE [main]: StudentController                    - getStudents: students=[Student{serialNumber='sn1', name='s1', groupNumber=null} BaseEntity{id=1}, Student{serialNumber='sn2', name='s2', groupNumber=null} BaseEntity{id=2}] 
+2018-05-20T10:38:05,507 TRACE [main]: StudentController                    - updateStudent: studentId=1, studentDtoMap=StudentDto{serialNumber='null', name='null', groupNumber=null, disciplines=null} BaseDto(id=null) 
+2018-05-20T10:38:05,508 TRACE [main]: StudentController                    - updateStudent: result=null 
+2018-05-20T10:38:48,878 TRACE [main]: StudentController                    - getStudents 
+2018-05-20T10:38:48,884 TRACE [main]: StudentController                    - getStudents: students=[Student{serialNumber='sn1', name='s1', groupNumber=null} BaseEntity{id=1}, Student{serialNumber='sn2', name='s2', groupNumber=null} BaseEntity{id=2}] 
+2018-05-20T10:38:49,392 TRACE [main]: StudentController                    - updateStudent: studentId=1, studentDtoMap=StudentDto{serialNumber='null', name='null', groupNumber=null, disciplines=null} BaseDto(id=null) 
+2018-05-20T10:38:49,393 TRACE [main]: StudentController                    - updateStudent: result=null 
+2018-05-20T10:41:17,093 TRACE [main]: StudentController                    - getStudents 
+2018-05-20T10:41:17,100 TRACE [main]: StudentController                    - getStudents: students=[Student{serialNumber='sn1', name='s1', groupNumber=null} BaseEntity{id=1}, Student{serialNumber='sn2', name='s2', groupNumber=null} BaseEntity{id=2}] 
+2018-05-20T10:41:17,583 TRACE [main]: StudentController                    - updateStudent: studentId=1, studentDtoMap=StudentDto{serialNumber='sn1', name='s1', groupNumber=null, disciplines=null} BaseDto(id=1) 
+2018-05-20T10:41:17,584 TRACE [main]: StudentController                    - updateStudent: result=StudentDto{serialNumber='sn1', name='s1', groupNumber=null, disciplines=null} BaseDto(id=1) 
+2018-05-20T10:41:57,411 TRACE [main]: StudentController                    - getStudents 
+2018-05-20T10:41:57,415 TRACE [main]: StudentController                    - getStudents: students=[Student{serialNumber='sn1', name='s1', groupNumber=null} BaseEntity{id=1}, Student{serialNumber='sn2', name='s2', groupNumber=null} BaseEntity{id=2}] 
+2018-05-20T10:41:57,798 TRACE [main]: StudentController                    - updateStudent: studentId=1, studentDtoMap=StudentDto{serialNumber='sn1', name='s1', groupNumber=null, disciplines=null} BaseDto(id=1) 
+2018-05-20T10:41:57,798 TRACE [main]: StudentController                    - updateStudent: result=StudentDto{serialNumber='sn1', name='s1', groupNumber=null, disciplines=null} BaseDto(id=1) 
+2018-05-21T01:14:56,089 TRACE [main]: StudentController                    - getStudents 
+2018-05-21T01:14:56,099 TRACE [main]: StudentController                    - getStudents: students=[Student{serialNumber='sn1', name='s1', groupNumber=null} BaseEntity{id=1}, Student{serialNumber='sn2', name='s2', groupNumber=null} BaseEntity{id=2}] 
+2018-05-21T01:14:56,574 TRACE [main]: StudentController                    - updateStudent: studentId=1, studentDtoMap=StudentDto{serialNumber='sn1', name='s1', groupNumber=null, disciplines=null} BaseDto(id=1) 
+2018-05-21T01:14:56,574 TRACE [main]: StudentController                    - updateStudent: result=StudentDto{serialNumber='sn1', name='s1', groupNumber=null, disciplines=null} BaseDto(id=1) 

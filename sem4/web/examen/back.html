@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+	<head>
+		<style type="text/css">
+
+			@keyframes move { 
+				0% { border-radius: 8px; } 
+				50% { height: 150px;
+  				      width: 150px;
+  				      border-radius: 80px; } 
+				100% {border-radius: 8px;}
+			}
+
+			#div3 {
+ 				height: 180px;
+  				width: 150px;
+  				background-color: #0074d9;
+  				border-radius: 5px;
+  				margin-bottom: 30px;
+  				float: left;
+  				margin-right: 20px;
+				
+			}
+			#parent3 {
+				width: 150px;
+				height: 150px;
+			}
+			#parent3:hover #div3 {
+				width: 150px;
+				height: 150px;
+				border-radius: 80px;
+				
+				
+				
+			}
+			#div4 {
+ 				height: 150px;
+  				width: 200px;
+  				background-color: #0074d9;
+  				border-radius: 4px;
+  				margin-bottom: 30px;
+  				float: left;
+  				margin-right: 20px;
+			}
+			#div4:hover{
+			animation: move 8s;
+			}
+
+			#div5 {
+				  background-image: url(https://imgix.bustle.com/uploads/image/2018/4/18/5f312113-eaa8-4e71-9360-871e51084f4f-fotolia_125402501_subscription_monthly_m.jpg?w=970&h=582&fit=crop&crop=faces&auto=format&q=70);
+			}
+
+
+			#div5:hover {
+				  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_xNlXa7Y1JYMtZlxjPOWn3mHMMUx4b_F7owZkgU7Y1a78RcYgcg);
+			}
+
+
+			#div6 {
+				 	  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_xNlXa7Y1JYMtZlxjPOWn3mHMMUx4b_F7owZkgU7Y1a78RcYgcg);
+			}
+
+			#div6:hover {
+				  background-image: url(https://imgix.bustle.com/uploads/image/2018/4/18/5f312113-eaa8-4e71-9360-871e51084f4f-fotolia_125402501_subscription_monthly_m.jpg?w=970&h=582&fit=crop&crop=faces&auto=format&q=70);
+			}
+div.background-parent
+{
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+.background {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background-image: url(https://imgix.bustle.com/uploads/image/2018/4/18/5f312113-eaa8-4e71-9360-871e51084f4f-fotolia_125402501_subscription_monthly_m.jpg?w=970&h=582&fit=crop&crop=faces&auto=format&q=70);
+}
+.background:hover{
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_xNlXa7Y1JYMtZlxjPOWn3mHMMUx4b_F7owZkgU7Y1a78RcYgcg);
+}
+
+div.background-parent1
+{
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+.background1 {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_xNlXa7Y1JYMtZlxjPOWn3mHMMUx4b_F7owZkgU7Y1a78RcYgcg);
+}
+.background1:hover{
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background-image: url(https://imgix.bustle.com/uploads/image/2018/4/18/5f312113-eaa8-4e71-9360-871e51084f4f-fotolia_125402501_subscription_monthly_m.jpg?w=970&h=582&fit=crop&crop=faces&auto=format&q=70);
+}
+		</style>
+	</head>
+	<body>
+<!--
+<div class="template">
+ 
+    <div class="background"></div>
+</div>
+<div class="template">
+    <div class="background1"></div>
+   </div>
+-->
+    <div id="div5"> test</div>
+<p></p><p></p>
+    <div id="div6"> test 2</div>
+
+	</body>
+<html>

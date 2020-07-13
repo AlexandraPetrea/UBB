@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Exam 1</title>
+</head>
+<style>
+    body{
+        color: blue;
+    }
+</style>
+<body>
+    <div class="ex1">
+        <h1>GET</h1>
+        <pre>
+            function loadDoc() {
+			  var xhttp = new XMLHttpRequest();
+			  xhttp.onreadystatechange = function() {
+				if (this.readyState == 4 && this.status == 200) {
+				 document.getElementById("demo").innerHTML = this.responseText;
+				}
+			  };
+			  xhttp.open("GET", "ajax_info.txt", true);
+			  xhttp.send();
+			}
+			
+			$.get("demo_test.asp", function(data, status){
+				alert("Data: " + data + "\nStatus: " + status);
+			});
+        </pre>
+
+        <h1>Post</h1>
+
+        <pre>
+			$.ajax({
+			  method: "POST",
+			  url: "some.php",
+			  data: { name: "John", location: "Boston" }
+			})
+			  .done(function( msg ) {
+				alert( "Data Saved: " + msg );
+			  });
+			  
+			  $.post( "ajax/test.html", function( data ) {
+				  $( ".result" ).html( data );
+				});
+		
+            xhttp.open("POST", "demo_post.asp", true);
+            xhttp.send();
+        </pre>
+		
+		<h1>Delete</h1>
+
+        <pre>
+            xhttp.open("DELETE", "demo_post.asp", true);
+            xhttp.send();
+        </pre>
+		
+		<h1>PUT</h1>
+
+        <pre>
+            $.put = function(url, data, callback, type){
+ 
+			  if ( $.isFunction(data) ){
+				type = type || callback,
+				callback = data,
+				data = {}
+			  }
+			 
+			  return $.ajax({
+				url: url,
+				type: 'PUT',
+				success: callback,
+				data: data,
+				contentType: type
+			  });
+			};
+        </pre>
+    </div>
+</body>
+</html>

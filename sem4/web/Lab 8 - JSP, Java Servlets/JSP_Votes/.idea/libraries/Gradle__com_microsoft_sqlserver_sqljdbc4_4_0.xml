@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: com.microsoft.sqlserver:sqljdbc4:4.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Could not find com.microsoft.sqlserver:sqljdbc4:4.0.&#13;&#10;Searched in the following locations:&#13;&#10;  - https:/repo.maven.apache.org/maven2/com/microsoft/sqlserver/sqljdbc4/4.0/sqljdbc4-4.0.pom&#13;&#10;  - https:/repo.maven.apache.org/maven2/com/microsoft/sqlserver/sqljdbc4/4.0/sqljdbc4-4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,1 +1,19 @@
 # UBB
+.idea/
+.iml
+
+.gradle
+
+/local.properties
+
+.DS_Store
+
+/ build
+
+/ captures
+
+.externalNativeBuild
+
+*.idea
+
+.idea / modules.xml

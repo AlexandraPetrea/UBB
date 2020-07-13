@@ -1,0 +1,15 @@
+body {
+  background-color: green;
+}
+
+#box {
+  background-color: transparent;
+  text-shadow: 3px -3px 6px yellow;
+
+  width: 500px;
+  padding: 20px;
+  border: 1px solid black;
+  position: absolute;
+  left: 200px;
+  text-align: justify;
+}

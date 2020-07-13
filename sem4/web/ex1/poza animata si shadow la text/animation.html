@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image animation</title>
+
+	<script type="text/javascript">
+		function move() {
+    		var elem = document.getElementById("image");
+   			var posX = 0;
+   			var posY = 0;
+   			var vX = 25;
+   			var vY = 50;
+    		var id = setInterval(frame, 7);
+    		function frame() {
+        		if (posX >= screen.width - 60) {
+        			posX = 0;
+        			posY += vY;
+        		} else {
+            		posX += vX;
+            		elem.style.top = posY + 'px';
+            		elem.style.left = posX + 'px';
+        		}
+        		if (posY >= screen.height - 170) {
+        			clearInterval(id);
+        		}
+    		}
+		}
+	</script>
+	<style type="text/css">
+		#image {
+  			width: 50px;
+  			height: 50px;
+  			position: absolute;
+		}
+	</style>
+</head>
+<body>
+	<button onclick="move()">Start</button>
+	<img src="img.jpeg" id="image" style="width: 50px; height: 50px">
+</body>
+</html>

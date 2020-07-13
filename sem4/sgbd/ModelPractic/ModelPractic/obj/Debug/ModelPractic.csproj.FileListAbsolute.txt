@@ -1,0 +1,8 @@
+D:\sem4\sgbd\ModelPractic\ModelPractic\bin\Debug\ModelPractic.exe
+D:\sem4\sgbd\ModelPractic\ModelPractic\bin\Debug\ModelPractic.pdb
+D:\sem4\sgbd\ModelPractic\ModelPractic\obj\Debug\ModelPractic.Form1.resources
+D:\sem4\sgbd\ModelPractic\ModelPractic\obj\Debug\ModelPractic.Properties.Resources.resources
+D:\sem4\sgbd\ModelPractic\ModelPractic\obj\Debug\ModelPractic.csproj.GenerateResource.cache
+D:\sem4\sgbd\ModelPractic\ModelPractic\obj\Debug\ModelPractic.csproj.CoreCompileInputs.cache
+D:\sem4\sgbd\ModelPractic\ModelPractic\obj\Debug\ModelPractic.exe
+D:\sem4\sgbd\ModelPractic\ModelPractic\obj\Debug\ModelPractic.pdb

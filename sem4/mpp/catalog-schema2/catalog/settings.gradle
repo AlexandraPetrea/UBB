@@ -1,0 +1,4 @@
+rootProject.name = 'catalog'
+include 'catalog-web'
+include 'catalog-core'
+

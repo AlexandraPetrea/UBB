@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+	<head>
+		<style type="text/css">
+
+			@keyframes move { 
+				0% { border-radius: 8px; } 
+				50% { height: 150px;
+  				      width: 150px;
+  				      border-radius: 80px; } 
+				100% {border-radius: 8px;}
+			}
+
+			#div3 {
+ 				height: 180px;
+  				width: 150px;
+  				background-color: #0074d9;
+  				border-radius: 5px;
+  				margin-bottom: 30px;
+  				float: left;
+  				margin-right: 20px;
+				
+			}
+			#parent3 {
+				width: 150px;
+				height: 150px;
+			}
+			#parent3:hover #div3 {
+				width: 150px;
+				height: 150px;
+				border-radius: 80px;
+				
+				
+				
+			}
+			#div4 {
+ 				height: 150px;
+  				width: 200px;
+  				background-color: #0074d9;
+  				border-radius: 4px;
+  				margin-bottom: 30px;
+  				float: left;
+  				margin-right: 20px;
+			}
+			#div4:hover{
+			animation: move 8s;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div id="parent3">
+			<div id="div3"> TEST 3</div>
+		</div>
+		
+		<div id="div4"> TEST 4 </div>
+
+	</body>
+<html>

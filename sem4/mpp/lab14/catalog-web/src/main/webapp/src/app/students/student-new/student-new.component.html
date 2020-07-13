@@ -1,0 +1,18 @@
+<h3>Add Student</h3>
+
+<div>
+  <label>Serial number: </label>
+  <input #studentSerialNumber/>
+</div>
+<div>
+  <label>Name: </label>
+  <input #studentName>
+</div>
+<div>
+  <label>Group number: </label>
+  <input #studentGroupNumber>
+</div>
+<div>
+  <button (click)="goBack()">Back</button>
+  <button (click)="save(studentSerialNumber.value, studentName.value, studentGroupNumber.value)">Save</button>
+</div>

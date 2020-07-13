@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript">
+        function interchange() {
+            var elems = document.body.getElementsByTagName("*");
+            i = 0;
+            while (i <= elems.length / 2 - 1) {
+                var aux = elems[i].innerHTML;
+                elems[i].innerHTML = elems[elems.length - i - 1].innerHTML;
+                elems[elems.length - i - 1].innerHTML = aux;
+                i++;
+            }
+        }
+    </script>
+</head>
+
+
+<body>
+
+<div onClick="interchange()">tag1</div>
+<div onClick="interchange()">tag2</div>
+<p onClick="interchange()">tag3</p>
+<div onClick="interchange()">tag4</div>
+<div onClick="interchange()">tag5</div>
+<div onClick="interchange()">tag6</div>
+<div onClick="interchange()">tag7</div>
+<p onClick="interchange()">tag8</p>
+
+
+</body>
+</html>

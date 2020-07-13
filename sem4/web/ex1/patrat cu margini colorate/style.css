@@ -1,0 +1,26 @@
+div{
+    width: 200px;
+    height: 200px;
+}
+
+.top {
+    border-bottom: 10px solid red;
+    margin: 0 auto;
+}
+
+.left {
+    position: relative;
+    border-right: 10px solid blue;
+    margin: 0 auto;
+    left: -195px;
+}
+
+.bottom {
+    border-top: 10px solid orange;
+    margin: 0 auto;
+}
+
+.right {
+    border-left: 10px solid green;
+    margin-left: 390px;
+}

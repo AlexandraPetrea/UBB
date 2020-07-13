@@ -1,0 +1,9 @@
+D:\sem4\sgbd\mara\mara\obj\Debug\mara.csprojAssemblyReference.cache
+D:\sem4\sgbd\mara\mara\obj\Debug\mara.Form1.resources
+D:\sem4\sgbd\mara\mara\obj\Debug\mara.Properties.Resources.resources
+D:\sem4\sgbd\mara\mara\obj\Debug\mara.csproj.GenerateResource.cache
+D:\sem4\sgbd\mara\mara\obj\Debug\mara.csproj.CoreCompileInputs.cache
+D:\sem4\sgbd\mara\mara\bin\Debug\mara.exe
+D:\sem4\sgbd\mara\mara\bin\Debug\mara.pdb
+D:\sem4\sgbd\mara\mara\obj\Debug\mara.exe
+D:\sem4\sgbd\mara\mara\obj\Debug\mara.pdb

@@ -1,0 +1,3 @@
+include ':catalog-core'
+project(':catalog-core').projectDir = new File(settingsDir, '../catalog-core')
+

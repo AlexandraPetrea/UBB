@@ -1,0 +1,16 @@
+<div *ngIf="selectedDiscipline">
+  <h2>
+    {{selectedDiscipline.name}} was selected
+  </h2>
+  <button (click)="gotoDetails()">View details</button>
+</div>
+
+<div>
+  <h2>Disciplines</h2>
+  <ol>
+    <li *ngFor="let discipline of disciplines"
+        (click)="onSelect(discipline)">
+      {{discipline.name}}
+    </li>
+  </ol>
+</div>

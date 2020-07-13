@@ -1,0 +1,73 @@
+#valuesY {
+    display: inline-block;
+    font-weight: bolder;
+}
+
+.value {
+    margin-top: 40px;
+}
+
+#graph {
+    display: inline-block;
+    position: absolute;
+    left: 55px;   
+}
+
+.axis {
+    background-color: black;
+    border: 1px solid black;
+    margin: 0;
+}
+
+#ox {
+    width: 550px;
+    height: 3px;
+}
+
+#oy {
+    position: relative;
+    display: inline-block;
+    width: 3px;
+    height: 350px;
+    top: 7px;
+}
+
+.bar {
+    display: inline-block;
+    width: 40px;
+    margin-bottom: 0;
+    border: none;
+    margin-left: 50px;
+}
+
+#first {
+    height: 200px;
+    background-color: red;
+}
+
+#second {
+    height: 150px;
+    background-color: dodgerblue;
+}
+
+#third {
+    height: 235px;
+    background-color: darkgreen;
+}
+
+#fourth {
+    height: 185px;
+    background-color: lightsalmon;   
+}
+
+#valuesX {
+    margin-left: 108px;
+    margin-top: 135px;
+    display: block;
+    font-size: 3em;
+}
+
+.valueX {
+    display: inline-block;
+    margin-right: 50px;
+}

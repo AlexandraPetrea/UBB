@@ -1,0 +1,352 @@
+ <!DOCTYPE html>
+<html>
+<header>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <title>The Web Developer Bootcamp | Udemy</title>
+</header>
+
+
+<body>
+
+
+    <div aria-label="main-wrapper">
+
+        <div class="header">
+
+            <div class="header-elems">
+                <img src="https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg" width="110">
+            </div>
+
+            <div class="header-elems">
+                <img src="images/categories.png" width="110">
+            </div>
+
+            <div class="header-elems search-bar-wrapper">
+                <input type="text" class="search-bar" placeholder="Search for Courses">
+                <img src="images/searchButton1.png" class="search-bar-btn">
+            </div>
+
+
+            <div class="header-elems ">
+
+                <div class="business">
+
+                    <button class="text-header">
+                        Udemy for business
+                    </button>
+
+                    <div class="drop-business">
+                        <div class="drop-business-message">
+                            <p>
+                                Get your team access to Udemy’s top
+                            </p>
+
+                            <p>
+                                2,000 courses anytime, anywhere.
+                            </p>
+                        </div>
+                        <a class="drop-business-link" header-tracking="ufb.learn-more" href="https://business.udemy.com/?ref=ufb_header">
+                            Try Udemy for Business
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="header-elems">
+
+                <div class="teach">
+                    <button class="text-header">
+                        Become an instructor
+                    </button>
+
+                    <div class="drop-teach">
+                        <div class="drop-business-message">
+                            <p>
+                                Turn what you know into an opportunity
+                            </p>
+
+                            <p>
+                                and reach millions around the world.
+                            </p>
+                        </div>
+                        <a class="drop-business-link" header-tracking="ufb.learn-more" href="https://business.udemy.com/?ref=ufb_header">
+                            Learn More
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-elems">
+                <img src="images/basket.png">
+            </div>
+
+
+            <div class="header-elems">
+
+                <button type="button" class="header-elems log-in-btn">
+                    Log in
+                </button>
+
+                <button type="button" class="header-elems sign-up-btn">
+                    Sign Up
+                </button>
+            </div>
+
+        </div>
+
+        <div class="header2">
+
+
+            <div class="text-header2 header-elems">
+
+                <img src="images/1h.png">
+                <span>Developement</span>
+
+
+            </div>
+            <div class="text-header2 header-elems">
+
+                <img src="images/2h.png">
+                <span>Business</span>
+
+
+            </div>
+            <div class="text-header2 header-elems">
+
+                <img src="images/3h.png">
+                <span>IT & Software</span>
+
+
+            </div>
+            <div class="text-header2 header-elems">
+
+                <img src="images/4h.png">
+                <span>Office Productivity</span>
+
+
+            </div>
+            <div class="text-header2 header-elems">
+
+                <img src="images/5h.png">
+                <span>Personal Developement</span>
+
+            </div>
+
+            <div class="text-header2 header-elems">
+
+                <img src="images/6h.png">
+                <span>Designe</span>
+
+            </div>
+
+            <div class="text-header2 header-elems">
+
+                <img src="images/7h.png">
+                <span>Marketing</span>
+
+            </div>
+
+            <div class="text-header2 header-elems">
+
+                <img src="images/8h.png">
+                <span>Lifestyle</span>
+
+            </div>
+
+            <div class="text-header2 header-elems">
+
+                <img src="images/9h.png">
+                <span>Photography</span>
+
+            </div>
+
+        </div>
+
+        <div class="content1">
+
+            <h1 class="content1-h1">The Web Developer Bootcamp</h1>
+            <h2 class="content1-h2">The only course you need to learn web development - HTML, CSS, JS, Node, </h2>
+            <h2 class="content1-h2" style="position: relative; bottom: 20px"> and More!</h2>
+
+
+            <div style="display: flex; position:relative; bottom: 20px;">
+
+                <div>
+                    <img src="images/rating.png">
+                </div>
+
+                <div style="margin-left: 10px">
+                    4.7 (65,649 ratings)
+                </div>
+
+                <div style="margin-left: 30px">
+                    265,431 students enrolled
+                </div>
+
+            </div>
+
+            <div class="content1-h3" style="display: flex; position:relative; bottom: 20px;">
+
+                <div>
+                    Created by Colt Steele
+                </div>
+
+                <div style="margin-left: 15px">
+                    Last updated 3/2018
+                </div>
+
+                <div style="margin-left: 15px">
+
+                    <img src="images/1c.png"> English
+
+                </div>
+
+                <div style="margin-left: 15px">
+                    <img src="images/2c.png"> English, Dutch,
+                    <u>10 more</u>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="right-box">
+
+            <div>
+                <img src="images/video1.png">
+            </div>
+
+            <div style="display: flex; flex-direction: row; ">
+                <div>
+                    <h1 class="right-box-text-h1">
+                        €13.99
+                    </h1>
+                </div>
+
+                <div class="right-box-text">
+                    <del>
+                        €199.99
+                    </del>
+                </div>
+
+                <div class="right-box-text">
+                    93% off
+                </div>
+            </div>
+
+            <div style="margin: 0px 0px 0px 30px;">
+                <img src="images/1rb.png">
+                <b>4 days</b> left at this price!
+                </span>
+            </div>
+
+            <div style="align-content: center">
+                <button class="buy-now-btn">Buy Now</button>
+            </div>
+
+            <div>
+                <button class="add-cart-btn">Add to Cart</button>
+            </div>
+
+            <div>
+                <span style="color:#505763;; font-size: 13px; margin-left: 90px; margin-top: 50px;">
+                    30-Day Money-Back Guarantee
+                    <span>
+            </div>
+
+            <ul style="list-style-type: none;">
+                <span style="color:#505763; font-size: 17px;">
+                    <b>Includes: </b>
+                </span>
+                <li class="right-box-li">
+                    <img src="images/1rbl.png"> 42.5 hours on-demand video</li>
+                <li class="right-box-li">
+                    <img src="images/2rbl.png"> 63 Articles</li>
+                <li class="right-box-li">
+                    <img src="images/3rbl.png"> 32 Supplemental Resources</li>
+                <li class="right-box-li">
+                    <img src="images/4rbl.png"> Full lifetime access</li>
+                <li class="right-box-li">
+                    <img src="images/5rbl.png"> Access on mobile and TV</li>
+                <li class="right-box-li">
+                    <img src="images/6rbl.png"> Certificate of Completion</li>
+            </ul>
+
+            <button type="submit" class="coupon-btn">Have a coupon?</button>
+        </div>
+
+        <div class="content2">
+
+            <h2 class="content2-h2">What Will I Learn?</h2>
+            <div style="display: flex; flex-direction: row; justify-content: space-between;">
+
+                <ul style="list-style-type: none; ">
+                    <li class="content2-li">
+
+                        <div>
+                            <img src="images/check.png"> Make REAL web applications using cutting-edge technologies
+                        </div>
+                    </li>
+
+                    <li class="content2-li">
+                        <div>
+                            <img src="images/check.png"> Create a blog application from scratch using Express, MongoDB, and Semantic UI
+                        </div>
+                    </li>
+
+                    <li class="content2-li">
+                        <div>
+                            <img src="images/check.png"> Write your own browser-based game
+                        </div>
+                    </li>
+
+                    <li class="content2-li">
+                        <div>
+                            <img src="images/check.png"> Think like a developer. Become an expert at Googling code questions!
+                        </div>
+                    </li>
+                </ul>
+
+                <ul style="list-style-type: none;">
+                    <li class="content2-li">
+
+                        <div>
+                            <img src="images/check.png"> Continue to learn and grow as a developer, long after the course ends
+                        </div>
+                    </li>
+
+                    <li class="content2-li">
+                        <div>
+                            <img src="images/check.png"> Create a complicated yelp-like application from scratch
+                        </div>
+                    </li>
+
+                    <li class="content2-li">
+                        <div>
+                            <img src="images/check.png"> Create static HTML and CSS portfolio sites and landing pages
+                        </div>
+                    </li>
+
+                    <li class="content2-li">
+                        <div>
+                            <img src="images/check.png"> Create complex HTML forms with validations
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+#div0 {
+  background-color: black;
+}
+#div1 {
+  background-color: green;
+}
+#div2 {
+  background-color: lightblue;
+}
+#div3 {
+  background-color: yellow;
+}
+#div4 {
+  background-color: red;
+}
+#div5 {
+  background-color: white;
+}
+#div6 {
+  background-color: pink;
+}
+#div7 {
+  background-color: blue;
+}
+#div8 {
+  background-color: darkblue;
+}
+#div9 {
+  background-color: grey;
+}
+#circle {
+  background: green;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border-radius: 50%;
+}
+#maskCircle {
+  margin: auto;
+  transition: margin 2s;
+}
+#circle:hover {
+  margin: 0;
+}
+  </style>
+  <script src="jquery-3.3.1.min.js"></script>
+  <script>
+    divs = [];
+    $(document).ready(function() {
+      for(var i = 0; i < 10; ++ i) {
+        divs.push('<div id=div' + i + '>Div ' + i + '</div>');
+      }
+      $('#content').html(divs.reduce((o = "", op) => o += op));
+      $('#content').click(function() {
+        divs = [divs[9]].concat(divs.splice(0, 9));
+        $('#content').html(divs.reduce((o = "", op) => o += op));
+      });
+    });
+  </script>
+</head>
+<body>
+  <div id="content">
+    caca
+  </div>
+  <div id="maskCircle">
+    <div id="circle">
+
+    </div>
+  </div>
+</body>
+</html>

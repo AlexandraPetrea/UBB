@@ -1,0 +1,27 @@
+
+<!doctype html>
+<html>
+	<head>
+		<style type="text/css">
+			@keyframes move { 
+				0% { left: 0px; } 
+				40% { left: 130px; }
+				100% { left: 250px; } 
+			}
+			div {
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				background-color: red;
+				width: 500px;
+			}
+			div:hover {
+				animation: move 12s;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div id="div1">Test 1</div>
+	</body>
+</html>

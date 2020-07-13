@@ -1,0 +1,4 @@
+rootProject.name = 'chiarUltimul'
+include'catalog-core'
+include'catalog-web'
+

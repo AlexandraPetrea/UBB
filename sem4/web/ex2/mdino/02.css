@@ -1,0 +1,47 @@
+img {
+  height: 200px;
+}
+
+.tab {
+  float: left;
+  padding: 4px;
+}
+
+.content {
+  display: none;
+  clear: left;
+  width: 400px;
+  padding: 10px;
+}
+
+#tab_1 {
+  background-color: IndianRed;
+}
+
+#content_1 {
+  background-color: IndianRed;
+}
+
+#tab_2 {
+  background-color: PaleGreen;
+}
+
+#content_2 {
+  background-color: PaleGreen;
+}
+
+#tab_3 {
+  background-color: Gold;
+}
+
+#content_3 {
+  background-color: Gold;
+}
+
+#tab_4 {
+  background-color: LightBlue;
+}
+
+#content_4 {
+  background-color: LightBlue;
+}

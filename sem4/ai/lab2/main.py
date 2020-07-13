@@ -1,0 +1,154 @@
+#!/usr/bin/python3
+from math import pi, sin, exp, sqrt
+from random import uniform, random
+import itertools
+import numpy 
+
+def f(x,y):
+    return -20 * numpy.exp(-0.2 * sqrt(0.5 * (x*x + y * y))) + 20 - numpy.exp(0.5 * (numpy.cos(2 * pi * x) + numpy.cos(2 * pi * y))) + numpy.e
+
+#def f(x, y):
+ #   return -0.0001 * (abs(sin(x) * sin(y) * exp(100 - sqrt(x**2 + y**2) / pi)) + 1) ** 0.1
+
+def eventWithProbability(p):
+    return random() <= p
+
+class Individual:
+    def __init__(self, x=None, y=None):
+        if x is None:
+            x = uniform(Problem.nMin, Problem.nMax)
+
+        if y is None:
+            y = uniform(Problem.nMin, Problem.nMax)
+
+        self.x = x
+        self.y = y
+
+        self.fitness = 0.0
+        self.updateFitness()
+
+        assert (Problem.nMin <= x and x <= Problem.nMax)
+        assert (Problem.nMin <= y and y <= Problem.nMax)
+
+    def __repr__(self):
+        return "Individual(x=%.6f, y=%.5f, fitness=%.5f)" \
+                % (self.x, self.y, self.getFitness())
+
+    def updateFitness(self):
+        self.fitness = -f(self.x, self.y)
+
+    def getFitness(self):
+        return self.fitness
+
+    def mutate(self, probability):
+        if eventWithProbability(probability):
+            self.x += uniform(-Problem.mutationStep, Problem.mutationStep)
+        if eventWithProbability(probability):
+            self.y += uniform(-Problem.mutationStep, Problem.mutationStep)
+
+        self.updateFitness()
+
+    def crossover(self, other, probability):
+        '''
+        if eventWithProbability(probability):
+            offspring = Individual(self.x, other.y)
+        else:
+            offspring = Individual(other.x, self.y)
+        '''
+        offspring = None
+        if eventWithProbability(probability):
+            offspring = Individual((self.x + other.x) / 2, (self.y + other.y) / 2)
+            offspring.mutate(Problem.mutationProbability)
+        
+        return offspring
+
+    def __lt__(self, other):
+        return self.getFitness() < other.getFitness()
+
+
+class Population:
+    def __init__(self, size):
+        self.individuals = [Individual() for _ in range(size)]
+
+    def evaluate(self):
+        for x in self.individuals:
+            x.updateFitness()
+
+    def selection(self, remaining=None, ratioRemaining=None):
+        if ratioRemaining is not None:
+            remaining = max(2, int(ratioRemaining * self.size()))
+
+        self.individuals = sorted(self.individuals, \
+                                  key=lambda x: x.getFitness(), \
+                                  reverse=True)[:remaining]
+
+    def bestIndividual(self):
+        return max(self.individuals)
+
+    def size(self):
+        return len(self.individuals)
+
+
+class Problem:
+    nMin = -5
+    nMax = 5
+    step = 0.0000001
+    mutationStep = step * 0.1
+    mutationProbability = 0.001
+    crossoverProbability = 0.1
+
+    initialPopulation = 30
+    generations = 100
+    tests = 10
+
+class Algorithm:
+    def __init__(self,n):
+        self.population = Population(n)
+
+    def iteration(self):
+        pairs = itertools.product(self.population.individuals, 
+                                  self.population.individuals)
+
+        newIndividuals = [x.crossover(y, Problem.crossoverProbability) for (x, y) in pairs]
+
+
+        self.population.individuals.extend([x for x in newIndividuals if x is not None])
+        self.population.selection(remaining = 100)
+
+    def run(self, generations):
+        for i in range(generations):
+            self.iteration()
+
+            # print("Best individual in generation %i: %r" % (i+1, self.population.bestIndividual()))
+
+    def statistics(self, generations, tests):
+        fitnesses = []
+        for test in range(tests):
+            self.population = Population(Problem.initialPopulation)
+            self.run(Problem.generations)
+            print(self.population.bestIndividual())
+
+            fitnesses.append(self.population.bestIndividual().getFitness())
+
+        fitnesses = sorted(fitnesses)
+        arr = numpy.array(fitnesses)
+
+        mean = numpy.mean(arr, axis=0)
+        std = numpy.std(arr, axis=0)
+
+        print('The detected minimum point is f(%3.2f %3.2f) = %3.2f' % \
+            (self.population.bestIndividual().x, self.population.bestIndividual().y, self.population.bestIndividual().getFitness()))
+      
+        print("Mean: %.4f" % mean)
+        print("Std:  %.4f" % std)
+
+
+
+
+def main():
+    app = Algorithm(Problem.initialPopulation)
+    app.run(Problem.generations)
+    app.statistics(Problem.generations, Problem.tests)
+
+if __name__ == '__main__':
+    main()

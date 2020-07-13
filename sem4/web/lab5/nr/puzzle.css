@@ -1,0 +1,12 @@
+
+/* 
+Developed by Arnaldo Perez Castano
+arnaldo.skywalker@gmail.com
+*/
+
+.container {
+   width:1024px;
+   margin-left: auto;
+   margin-right: auto;
+   min-height:380px;
+}

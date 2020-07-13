@@ -1,0 +1,64 @@
+GET http://localhost:8080/index.jsp
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-23T102009.200.html
+
+###
+
+GET http://localhost:8080/index.jsp
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-23T102008.200.html
+
+###
+
+GET http://localhost:8080/index.jsp
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-23T101931.200.html
+
+###
+
+GET http://localhost:8080/user.jsp
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-23T101846.404.html
+
+###
+
+GET http://localhost:8080/index.jsp
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-23T101823.200.html
+
+###
+
+GET http://localhost:8080/User
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-23T101818.404.html
+
+###
+
+GET http://localhost:8080/Liquor
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-23T101808.404.html
+
+###
+
+GET http://localhost:8080/
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-04-23T101800.200.html
+
+###
+

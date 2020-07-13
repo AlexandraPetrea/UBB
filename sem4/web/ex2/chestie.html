@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>exam 3</title>
+</head>
+<body>
+    <p> A </p>
+    <p>Ana are mere</p>
+    <p>Ana</p>
+    <p>Mereasdasasdasdasdasa</p>
+<!-- <script src="script/script.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+<script>
+    function compare(a,b) {
+    if (a.average < b.average)
+        return 1;
+    if (a.average > b.average)
+        return -1;
+    return 0;
+    }
+    var all = document.getElementsByTagName("p");
+    var arr = [];
+    for(let i = 0;i < all.length;i++){
+        let words = all[i].textContent.split(" ").length;
+        let phrase = all[i].textContent.split(" ").join("").length;
+        let av = (phrase/words);
+        let obj = {"p":all[i],"average":av};
+        arr.push(obj);
+    }
+    $("p").remove();
+    var sortedArr = arr.sort(compare);
+    console.log(sortedArr);
+    var body = $("body")
+    for(let j = 0; j < sortedArr.length;j++){
+        body.append(sortedArr[j].p);
+    }
+    
+</script>
+
+</body>
+</html>

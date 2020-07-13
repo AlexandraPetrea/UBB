@@ -1,0 +1,28 @@
+Problem:
+	Consider a system to control a washing machine.
+	The purpose of this system is to adjust the washing cycle(delicate, easy, normal, intens).
+	The outside sensors give information about the texture of the clothes(very soft, soft, normal, resistant)
+	and the capacity of the machine(small,medium,high).
+	Compute the necessary cycle of washing.
+
+Input:
+	Clothes:
+		very soft
+		soft
+		normal
+		resistant
+	Capacity:
+		small
+		normal 
+		high
+	
+Output:
+	Washing cycle:
+		delicate
+		easy
+		normal
+		intense
+		
+Algorithm:
+	Mamdami model
+	Defuzzification: Largest of maximum

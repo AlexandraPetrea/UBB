@@ -1,0 +1,10 @@
+D:\sem4\sgbd\lab3\Deadlock\Deadlock\bin\Debug\Deadlock.exe.config
+D:\sem4\sgbd\lab3\Deadlock\Deadlock\bin\Debug\Deadlock.exe
+D:\sem4\sgbd\lab3\Deadlock\Deadlock\bin\Debug\Deadlock.pdb
+D:\sem4\sgbd\lab3\Deadlock\Deadlock\obj\Debug\Deadlock.Form1.resources
+D:\sem4\sgbd\lab3\Deadlock\Deadlock\obj\Debug\Deadlock.Properties.Resources.resources
+D:\sem4\sgbd\lab3\Deadlock\Deadlock\obj\Debug\Deadlock.csproj.GenerateResource.cache
+D:\sem4\sgbd\lab3\Deadlock\Deadlock\obj\Debug\Deadlock.csproj.CoreCompileInputs.cache
+D:\sem4\sgbd\lab3\Deadlock\Deadlock\obj\Debug\Deadlock.exe
+D:\sem4\sgbd\lab3\Deadlock\Deadlock\obj\Debug\Deadlock.pdb
+D:\sem4\sgbd\lab3\Deadlock\Deadlock\obj\Debug\Deadlock.csprojAssemblyReference.cache
