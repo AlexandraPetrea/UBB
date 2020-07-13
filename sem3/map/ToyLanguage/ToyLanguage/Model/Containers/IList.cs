@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace ToyLanguage.Model.Containers
+{
+    public interface MyIList<T>
+    {
+        void Add(T element);
+        T Get(int index);
+        bool Remove(T element);
+        T Remove(int index);
+        int Size();
+        List<T> ToList();
+        string ToString();
+    }
+}

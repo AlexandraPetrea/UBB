@@ -1,0 +1,33 @@
+C:\Users\User\source\repos\ToyLanguage\ToyLanguage\obj\Debug\netcoreapp2.0\ToyLanguage.csprojResolveAssemblyReference.cache
+C:\Users\User\source\repos\ToyLanguage\ToyLanguage\obj\Debug\netcoreapp2.0\ToyLanguage.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ToyLanguage\ToyLanguage\obj\Debug\netcoreapp2.0\ToyLanguage.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\ToyLanguage\ToyLanguage\obj\Debug\netcoreapp2.0\ToyLanguage.AssemblyInfo.cs
+C:\Users\User\source\repos\ToyLanguage\ToyLanguage\bin\Debug\netcoreapp2.0\ToyLanguage.deps.json
+C:\Users\User\source\repos\ToyLanguage\ToyLanguage\bin\Debug\netcoreapp2.0\ToyLanguage.runtimeconfig.json
+C:\Users\User\source\repos\ToyLanguage\ToyLanguage\bin\Debug\netcoreapp2.0\ToyLanguage.runtimeconfig.dev.json
+C:\Users\User\source\repos\ToyLanguage\ToyLanguage\bin\Debug\netcoreapp2.0\ToyLanguage.dll
+C:\Users\User\source\repos\ToyLanguage\ToyLanguage\bin\Debug\netcoreapp2.0\ToyLanguage.pdb
+C:\Users\User\source\repos\ToyLanguage\ToyLanguage\obj\Debug\netcoreapp2.0\ToyLanguage.dll
+C:\Users\User\source\repos\ToyLanguage\ToyLanguage\obj\Debug\netcoreapp2.0\ToyLanguage.pdb
+D:\map\ToyLanguage\ToyLanguage\bin\Debug\netcoreapp2.0\ToyLanguage.deps.json
+D:\map\ToyLanguage\ToyLanguage\bin\Debug\netcoreapp2.0\ToyLanguage.runtimeconfig.json
+D:\map\ToyLanguage\ToyLanguage\bin\Debug\netcoreapp2.0\ToyLanguage.runtimeconfig.dev.json
+D:\map\ToyLanguage\ToyLanguage\bin\Debug\netcoreapp2.0\ToyLanguage.dll
+D:\map\ToyLanguage\ToyLanguage\bin\Debug\netcoreapp2.0\ToyLanguage.pdb
+D:\map\ToyLanguage\ToyLanguage\obj\Debug\netcoreapp2.0\ToyLanguage.csprojResolveAssemblyReference.cache
+D:\map\ToyLanguage\ToyLanguage\obj\Debug\netcoreapp2.0\ToyLanguage.csproj.CoreCompileInputs.cache
+D:\map\ToyLanguage\ToyLanguage\obj\Debug\netcoreapp2.0\ToyLanguage.AssemblyInfoInputs.cache
+D:\map\ToyLanguage\ToyLanguage\obj\Debug\netcoreapp2.0\ToyLanguage.AssemblyInfo.cs
+D:\map\ToyLanguage\ToyLanguage\obj\Debug\netcoreapp2.0\ToyLanguage.dll
+D:\map\ToyLanguage\ToyLanguage\obj\Debug\netcoreapp2.0\ToyLanguage.pdb
+D:\map\ToyLanguage - Copy\ToyLanguage\bin\Debug\netcoreapp2.0\ToyLanguage.deps.json
+D:\map\ToyLanguage - Copy\ToyLanguage\bin\Debug\netcoreapp2.0\ToyLanguage.runtimeconfig.json
+D:\map\ToyLanguage - Copy\ToyLanguage\bin\Debug\netcoreapp2.0\ToyLanguage.runtimeconfig.dev.json
+D:\map\ToyLanguage - Copy\ToyLanguage\bin\Debug\netcoreapp2.0\ToyLanguage.dll
+D:\map\ToyLanguage - Copy\ToyLanguage\bin\Debug\netcoreapp2.0\ToyLanguage.pdb
+D:\map\ToyLanguage - Copy\ToyLanguage\obj\Debug\netcoreapp2.0\ToyLanguage.csprojResolveAssemblyReference.cache
+D:\map\ToyLanguage - Copy\ToyLanguage\obj\Debug\netcoreapp2.0\ToyLanguage.csproj.CoreCompileInputs.cache
+D:\map\ToyLanguage - Copy\ToyLanguage\obj\Debug\netcoreapp2.0\ToyLanguage.AssemblyInfoInputs.cache
+D:\map\ToyLanguage - Copy\ToyLanguage\obj\Debug\netcoreapp2.0\ToyLanguage.AssemblyInfo.cs
+D:\map\ToyLanguage - Copy\ToyLanguage\obj\Debug\netcoreapp2.0\ToyLanguage.dll
+D:\map\ToyLanguage - Copy\ToyLanguage\obj\Debug\netcoreapp2.0\ToyLanguage.pdb
