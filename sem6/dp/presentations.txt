@@ -1,0 +1,27 @@
+26 presentations online:
+Factory Method - https://youtu.be/s4bYUAyjjbQ
+Builder - https://youtu.be/O-CVAEg1Y0w
+Prototype - https://youtu.be/I8higIcjgQk
+Singleton - https://youtu.be/kD8x8t-fGug
+Adapter - https://youtu.be/kgTWPBLxn60
+Bridge - https://youtu.be/i1NB7k1BIBQ
+Composite - https://youtu.be/a1xzHcXrnZ0
+Decorator - https://youtu.be/lWCCuDqoEbs
+Facade - https://youtu.be/So6x3-cOdCM
+Flyweight - https://youtu.be/M7Bc_OWUjlk
+Proxy - https://vimeo.com/403267736
+Chain of Responsibility - https://youtu.be/j9dh7uKM10s
+Command - https://youtu.be/_U_gOql-AS4
+Iterator - https://youtu.be/OdBi0BsWPeU
+Mediator - https://youtu.be/_yMebjMFVXU
+Memento - https://youtu.be/4enIiuFsq3I
+Observer - https://youtu.be/984aNglZrNA
+State - https://youtu.be/ZN_3brUch-k
+Strategy - https://youtu.be/hbnbiebUrhk
+Template - https://youtu.be/u9ZKg5oScq4
+Visitor - https://youtu.be/LBRctnnaDF4
+Model View ViewModel - https://youtu.be/pShNuasbekE
+Model View Controller - https://youtu.be/Ht835adhRAE
+Model View Presenter - https://youtu.be/cV-H1FL6X0k
+Pipe and Filter - https://youtu.be/dkk4RDjEByQ
+Message Translator - https://youtu.be/6OdTIgoxt9w
