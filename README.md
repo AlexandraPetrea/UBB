@@ -33,7 +33,7 @@ The short version of university.
 📌 [Web Programming](https://github.com/AlexandraPetrea/UBB/tree/master/sem4/web) <br />
 📌 [Artificial Intelligence](https://github.com/AlexandraPetrea/UBB/tree/master/sem4/ai) <br />
 📌 [Database Management Systems](https://github.com/AlexandraPetrea/UBB/tree/master/sem4/sgbd) <br />
-📌 Software Engineering](https://github.com/AlexandraPetrea/UBB/tree/master/sem4/iss) <br />
+📌 [Software Engineering](https://github.com/AlexandraPetrea/UBB/tree/master/sem4/iss) <br />
 📌 [Systems for Design and Implementation](https://github.com/AlexandraPetrea/UBB/tree/master/sem5/mpp) <br />
 
 ## 💻 Volum 5 <br /> 
@@ -42,7 +42,7 @@ The short version of university.
 📌 [Cryptography](https://github.com/AlexandraPetrea/UBB/tree/master/sem5/crypto) <br />
 📌 Mobile Applications <br />
 📌 [Formal Languages and Compiler Design](https://github.com/AlexandraPetrea/UBB/tree/master/sem5/lftc) <br />
-📌 [Parallel and Distributed Programming](https://github.com/AlexandraPetrea/UBB/tree/master/sem5/ppd] <br />
+📌 [Parallel and Distributed Programming](https://github.com/AlexandraPetrea/UBB/tree/master/sem5/ppd) <br />
 
 
 ## 💻 Volum 6 <br />
