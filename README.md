@@ -49,7 +49,7 @@ The short version of university.
 
 
 📌 [System administration](https://github.com/AlexandraPetrea/UBB/tree/master/sem6/sys) <br /> 
-📌 [Design Patterns] (https://github.com/AlexandraPetrea/UBB/tree/master/sem6/dp) <br />
+📌 [Design Patterns](https://github.com/AlexandraPetrea/UBB/tree/master/sem6/dp) <br />
 📌 History of Computer Science <br />
 📌 [Numerical Calculus](https://github.com/AlexandraPetrea/UBB/tree/master/sem6/cn) <br />
 📌 Preparation of Bachelor Thesis <br />
