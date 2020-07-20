@@ -1,9 +1,8 @@
 # UBBye
 The short version of university.
 
-## 💻 Volum 1
-
 <br />
+* 💻  Volume 1 <br />
 📌 Algebra <br />
 📌 Computational Logic<br />
 📌 Computer System Architecture <br />
