@@ -1,0 +1,57 @@
+1)SSH
+2)WEB APACHE
+ http://server-ip:80
+
+3) nginx
+http://server-ip:81/index.html
+
+4) FTP
+digitalocean.com/community/tutorials/how-to-set-up-vsftpd-for-a-user-s-directory-on-ubuntu-16-04
+-certificat ftp
+ftp -p 172.20.10.3
+
+5)MYSQL
+ mysql -u root -p status
+show databases
+
+6) squid 
+sudo systemctl start squid
+curl google.com -> ok
+curl facebook.com -> not ok
+
+7) PHP 
+http://server/info.php
+
+8) TFTP
+echo "world" | sudo tee /var/lib/tftpboot/hello.txt
+
+cat hello.txt
+world
+
+9)CSV 
+cvs -d :pserver:alex@localhost:/myrepos login
+
+9)DHCP
+https://graspingtech.com/configure-dhcp-server/
+
+10) mail ?
+
+BONUS
+monitor 
+https://websiteforstudents.com/install-monit-system-monitor-on-ubuntu-18-04-16-04-lts/
+
+1) GoAccess - LogAnalyzer
+https://www.howtoforge.com/tutorial/ubuntu-goaccess-apache-log-analyzer/
+sudo goaccess /var/log/apache2/access.log --log-format=COMBINED
+sudo goaccess /var/log/apache2/access.log --log-format=COMBINED -a -o /var/www/html/report.html
+
+2) Monit - Monitor services 
+
+3) Benchmark 
+https://linuxconfig.org/how-to-benchmark-your-linux-system
+$ sysbench --test=cpu run
+$ sysbench --test=memory run
+
+1)Prevent abuse 
+https://www.unixmen.com/prevent-brute-force-attacks-using-these-tools/
+
