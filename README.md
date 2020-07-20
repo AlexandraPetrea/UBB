@@ -24,8 +24,8 @@ The short version of university.
 📌 [Advanced Programming Methods](https://github.com/AlexandraPetrea/UBB/tree/master/sem3/map) <br />
 📌 [Functional & Logic Programming](https://github.com/AlexandraPetrea/UBB/tree/master/sem3/lisp) <br />
 📌 Databases <br />
-📌 [Networks]((https://github.com/AlexandraPetrea/UBB/tree/master/sem3/networks) <br />
-📌 [Probability & Statistics]((https://github.com/AlexandraPetrea/UBB/tree/master/sem3/probability) <br />
+📌 [Networks](https://github.com/AlexandraPetrea/UBB/tree/master/sem3/networks) <br />
+📌 [Probability & Statistics](https://github.com/AlexandraPetrea/UBB/tree/master/sem3/probability) <br />
 
 
 ## 💻 Volum 4 <br />
@@ -49,7 +49,7 @@ The short version of university.
 
 
 📌 [System administration](https://github.com/AlexandraPetrea/UBB/tree/master/sem6/sys) <br /> 
-📌 [Design Patterns] ((https://github.com/AlexandraPetrea/UBB/tree/master/sem6/dp) <br />
+📌 [Design Patterns] (https://github.com/AlexandraPetrea/UBB/tree/master/sem6/dp) <br />
 📌 History of Computer Science <br />
 📌 [Numerical Calculus](https://github.com/AlexandraPetrea/UBB/tree/master/sem6/cn) <br />
 📌 Preparation of Bachelor Thesis <br />
