@@ -3,17 +3,13 @@ The short version of university.
 
 ## 💻 Volum 1
 
-```bash
-📌 Algebra
-📌 Computational Logic
-📌 Computer System Architecture
-<<<<<<< HEAD
-📌 [Fundamentals of Programming](https://github.com/AlexandraPetrea/UBB/tree/master/sem1/fp)
-=======
-📌 <a href="https://github.com/AlexandraPetrea/UBB/tree/master/sem1/fp">Fundamentals of Programming</a> 
->>>>>>> e36675244004a24842ef1fff67a08b5eb8af6751
-📌 Analysis
-```
+<br />
+📌 Algebra <br />
+📌 Computational Logic<br />
+📌 Computer System Architecture <br />
+📌 [Fundamentals of Programming](https://github.com/AlexandraPetrea/UBB/tree/master/sem1/fp) <br />
+📌 Analysis <br />
+<br />
 
 ## 💻 Volum 2
 
