@@ -14,9 +14,9 @@ The short version of university.
 📌 [Data Structures & Algorithms](https://github.com/AlexandraPetrea/UBB/tree/master/sem2/sda) <br />
 📌 Dynamic Systems <br />
 📌 [Graphs](https://github.com/AlexandraPetrea/UBB/tree/master/sem2/algoritmica%20grafelor) <br />
-📌 Geometry <br />
+📌 [Geometry](https://github.com/AlexandraPetrea/UBB/tree/master/sem2/geometry) <br />
 📌 [Object Oriented Programming](https://github.com/AlexandraPetrea/UBB/tree/master/sem2/oop) <br />
-📌 Operating Systems <br />
+📌 [Operating Systems](https://github.com/AlexandraPetrea/UBB/tree/master/sem2/os) <br />
 
 ## 💻 Volum 3 <br />
 
@@ -24,8 +24,8 @@ The short version of university.
 📌 [Advanced Programming Methods](https://github.com/AlexandraPetrea/UBB/tree/master/sem3/map) <br />
 📌 [Functional & Logic Programming](https://github.com/AlexandraPetrea/UBB/tree/master/sem3/lisp) <br />
 📌 Databases <br />
-📌 Networks <br />
-📌 Probability & Statistics <br />
+📌 [Networks]((https://github.com/AlexandraPetrea/UBB/tree/master/sem3/networks) <br />
+📌 [Probability & Statistics]((https://github.com/AlexandraPetrea/UBB/tree/master/sem3/probability) <br />
 
 
 ## 💻 Volum 4 <br />
@@ -34,13 +34,13 @@ The short version of university.
 📌 [Artificial Intelligence](https://github.com/AlexandraPetrea/UBB/tree/master/sem4/ai) <br />
 📌 [Database Management Systems](https://github.com/AlexandraPetrea/UBB/tree/master/sem4/sgbd) <br />
 📌 [Software Engineering](https://github.com/AlexandraPetrea/UBB/tree/master/sem4/iss) <br />
-📌 [Systems for Design and Implementation](https://github.com/AlexandraPetrea/UBB/tree/master/sem5/mpp) <br />
+📌 [Systems for Design and Implementation](https://github.com/AlexandraPetrea/UBB/tree/master/sem4/mpp) <br />
 
 ## 💻 Volum 5 <br /> 
 
 📌 [Virtual Reality](https://github.com/AlexandraPetrea/UBB/tree/master/sem5/vr) <br />
 📌 [Cryptography](https://github.com/AlexandraPetrea/UBB/tree/master/sem5/crypto) <br />
-📌 Mobile Applications <br />
+📌 [Mobile Applications]((https://github.com/AlexandraPetrea/UBB/tree/master/sem5/mobile) <br />
 📌 [Formal Languages and Compiler Design](https://github.com/AlexandraPetrea/UBB/tree/master/sem5/lftc) <br />
 📌 [Parallel and Distributed Programming](https://github.com/AlexandraPetrea/UBB/tree/master/sem5/ppd) <br />
 
@@ -48,7 +48,7 @@ The short version of university.
 ## 💻 Volum 6 <br />
 
 
-📌 System administration <br /> 
+📌 [System administration](https://github.com/AlexandraPetrea/UBB/tree/master/sem6/sys) <br /> 
 📌 Design Patterns <br />
 📌 History of Computer Science <br />
 📌 [Numerical Calculus](https://github.com/AlexandraPetrea/UBB/tree/master/sem6/cn) <br />
