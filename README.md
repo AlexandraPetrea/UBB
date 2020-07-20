@@ -7,7 +7,11 @@ The short version of university.
 📌 Algebra
 📌 Computational Logic
 📌 Computer System Architecture
+<<<<<<< HEAD
 📌 [Fundamentals of Programming](https://github.com/AlexandraPetrea/UBB/tree/master/sem1/fp)
+=======
+📌 <a href="https://github.com/AlexandraPetrea/UBB/tree/master/sem1/fp">Fundamentals of Programming</a> 
+>>>>>>> e36675244004a24842ef1fff67a08b5eb8af6751
 📌 Analysis
 ```
 
