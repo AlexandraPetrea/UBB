@@ -40,7 +40,7 @@ The short version of university.
 
 📌 [Virtual Reality](https://github.com/AlexandraPetrea/UBB/tree/master/sem5/vr) <br />
 📌 [Cryptography](https://github.com/AlexandraPetrea/UBB/tree/master/sem5/crypto) <br />
-📌 [Mobile Applications]((https://github.com/AlexandraPetrea/UBB/tree/master/sem5/mobile) <br />
+📌 [Mobile Applications](https://github.com/AlexandraPetrea/UBB/tree/master/sem5/mobile) <br />
 📌 [Formal Languages and Compiler Design](https://github.com/AlexandraPetrea/UBB/tree/master/sem5/lftc) <br />
 📌 [Parallel and Distributed Programming](https://github.com/AlexandraPetrea/UBB/tree/master/sem5/ppd) <br />
 
