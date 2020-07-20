@@ -1,0 +1,44 @@
+Intre echipamente de acealasi fel - cablu cross over
+		de fel diferit - cablu straight 
+
+Prima data setezi reteaua cu DNS, apoi DHCP, apoi WEB si restul
+
+
+Configurare pe retelele cu server
+setezi serverul si pe urma schimbi in PC de pe Static pe Dinamic
+
+
+Configurare DHCP pt retele fara server 
+DHCP-CLI
+en
+conf t
+ip dhcp pool piscinadeip
+default-router 1.1.1.129 (gataway-ul retelei)
+dns-server 2.2.2.2
+network 1.1.1.128 255.255.255.248 (primul ip al retelei)
+
+
+Routare dinamica
+en
+RIP-CLI
+conf t
+router rip 
+version 2
+no auto-summary 
+network(toate de care ii legat) - fara masca - iei adresele din routing table ( click dreapta 
+							pe router in modul lupa)
+
+Conectare PC/Smartphone de Router Wirless
+setezi numele routerului si apoi in PC dai connectare la adresa respectiva
+
+NAT 
+FTP use TCP
+FTP port 21
+
+SMTP port 25
+offline message exchanging
+mail exchange
+
+HTTP port 80
+
+DNS pe portul UDP 53
