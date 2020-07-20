@@ -3,7 +3,7 @@ The short version of university.
 
 ## 💻  Volume 1 <br />
 📌 Algebra <br />
-<a href="https://github.com/AlexandraPetrea/UBB/tree/master/sem1/logica">
+<a href="https://github.com/AlexandraPetrea/UBB/tree/master/sem1/logica"/>
 📌 Computational Logic<br />
 📌 Computer System Architecture <br />
 📌 [Fundamentals of Programming](https://github.com/AlexandraPetrea/UBB/tree/master/sem1/fp) <br />
@@ -13,10 +13,12 @@ The short version of university.
 ## 💻 Volum 2
 
 ```bash
+<a href="https://github.com/AlexandraPetrea/UBB/tree/master/sem2/sda"/>
 📌 Data Structures & Algorithms
 📌 Dynamic Systems
 📌 Graphs
 📌 Geometry
+<a href="https://github.com/AlexandraPetrea/UBB/tree/master/sem2/oop"/>
 📌 Object Oriented Programming
 📌 Operating Systems
 
