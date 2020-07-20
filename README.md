@@ -11,8 +11,7 @@ The short version of university.
 
 ## 💻 Volum 2 <br />
 
-<a href="https://github.com/AlexandraPetrea/UBB/tree/master/sem2/sda"/> 
-📌 Data Structures & Algorithms <br />
+📌 [Data Structures & Algorithms](https://github.com/AlexandraPetrea/UBB/tree/master/sem2/sda) <br />
 📌 Dynamic Systems <br />
 📌 Graphs <br />
 📌 Geometry <br />
